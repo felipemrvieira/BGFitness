@@ -28,6 +28,7 @@ permalink: /:title
 
 plugins:
   - jekyll-feed
+  - jekyll-bootstrap-sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
