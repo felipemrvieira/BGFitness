@@ -4,6 +4,7 @@
 
 $azul-bg: #0095da;
 $laranja-bg: #f58220;
+$cinza-escuro: #222227;
 
 @import 'bootstrap';
 
@@ -15,6 +16,15 @@ $laranja-bg: #f58220;
   font-family: "Roboto-Thin";
   src: url("../assets/fonts/Roboto-Thin.ttf");
 }
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../assets/fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("../assets/fonts/RobotoCondensed-Bold.ttf");
+}
+
 
 body{
   background-color: black;
@@ -59,7 +69,7 @@ header{
 
         }//li
         .icon-menu{
-          // display: none;
+          display: none;
         }
       }//nav principal
       #nav-social{
@@ -151,4 +161,133 @@ header{
 
     }
   }//nav-mobile
+}
+
+.principal{
+  height: 100vh;
+  background-image: url("../assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.explicacao{
+  background-color: #e1e1e3;
+  height: 90vh;
+  #atletas{
+    height: inherit;
+    background-image: url("../assets/img/atletas.png");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position: bottom left;
+  }
+  #container-explicacao{
+    display: flex;
+    height: inherit;
+    #elementos-explicacao{
+      text-align: center;
+      align-self: center;
+      #titulo-explicacao{
+        font-family: "Roboto-Condensed", sans-serif;
+        font-size: 3em;
+        font-weight: 700;
+        color: #222227;
+        text-transform: uppercase;
+      }
+      #explicacao{
+        font-family: "Roboto-Light";
+        font-size: 1.6em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+      }
+      a{
+        font-family: "Roboto-Condensed", sans-serif;
+        font-size: 1.6em;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+
+
+        padding: 15px 70px;
+        color: $cinza-escuro;
+        border: 2px solid #0095da;
+        &:hover{
+          background-color: #0095da;
+          color: white;
+          transition-duration: 0.3s;
+          -webkit-transition-duration: 0.3s;
+          -moz-transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+}
+#como-funciona{
+  display: flex;
+  padding: 70px 90px 120px 90px;
+  height: 100vh;
+  background-image: url("../assets/img/bg-como-funciona.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  .conteudo{
+    align-self: center;
+    .icon{
+      background-color: $azul-bg;
+      width: 240px;
+      height: 240px;
+      display: inline-block;
+      position: relative;
+      transition: background-color 300ms ease-out;
+      -webkit-transition: background-color 300ms ease-out;
+      -moz-transition: background-color 300ms ease-out;
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      &:hover{
+        background-color: darken($azul-bg, 10% );
+      }
+      img{
+        position: absolute;
+        z-index: 99999999;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+    }
+    .como-funciona-titulo{
+      font-family: "Roboto-Condensed", sans-serif;
+      font-size: 2.5em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .como-funciona-descricao{
+      font-family: "Roboto-Light";
+      font-size: 1.2em;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.planos{
+  height: 100vh;
+  background-color: grey;
+  .conteudo{
+    color: $cinza-escuro;
+    text-align: center;
+    header{
+      #planos-titulo{
+        font-family: "Roboto-Condensed", sans-serif;
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      #planos-subtitulo{
+        font-family: "Roboto-Light";
+        font-size: 1.2em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
