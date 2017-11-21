@@ -41,19 +41,46 @@ layout: default
     </div>
   </div>
 </section>
-<section class="planos">
+<section id="planos">
   <div class="conteudo">
     <header class="col-md-12">
       <p id="planos-titulo">Seu plano BG Fitness</p>
       <p id="planos-subtitulo">Escolha um plano e venha fazer parte da familia</p>
     </header>
-    <div class="col-md-6">
-      <p>Plano <strong>BG Gold</strong></p>
-      <p></p>
-    </div>
-    <div class="col-md-6">
-      <p>Plano <strong>BG Platinum</strong></p>
-      <p></p>
+    <div class="planos">
+      <div id="gold" class="col-md-5 plano">
+        <p>Plano <strong>BG Gold</strong></p>
+        <p class="sub-plano">Musculação e Aeróbicos em horário delimitado:</p>
+        <div id="detalhe">
+          <p>Horário do plano durante a semana:</p>
+          <p>De segunda à sexta de 09:00 às 15:00</p>
+          <p>Sabado e Domingo horário livre</p>
+        </div>
+        <a href="#" rel="nofollow">
+        <strong class="preco">R$ 79,90</strong>
+        <p class="contrate">Contrate Agora</p></a>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+      <div id="platinum" class="col-md-5 plano">
+        <p>Plano <strong>BG Platinum</strong></p>
+        <p class="sub-plano">Musculação, Acesso às duas unidades, Acesso à todas as modalidades:</p>
+        <ul>
+          <li>BG Spinning</li>
+          <li>BG Running</li>
+          <li>BG Funcional</li>
+          <li>FitDance</li>
+          <li>Zumba</li>
+          <li>Muay Thai</li>
+          <li>e mais!</li>
+          <li><a href="#">Confira todas as modalidades aqui!</a></li>
+        </ul>
+        <a href="#" rel="nofollow">
+        <strong class="preco">R$ 99,90</strong>
+        <p class="contrate">Contrate Agora</p></a>
+
+      </div>
     </div>
   </div>
 </section>
