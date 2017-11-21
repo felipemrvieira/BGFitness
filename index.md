@@ -10,8 +10,9 @@ layout: default
   </div>
   <div id="container-explicacao" class="col-md-7">
     <div id="elementos-explicacao">
-      <p id="titulo-explicacao">Para homens e mulheres</p>
-      <p id="explicacao">Melhorar a forma física, a saúde e o bem-estar são objetivos importantes para a sua vida. Escolha a academia sem burocracia e sempre disponível para você</p>
+      <p id="titulo-explicacao">Academia para todos</p>
+      <p id="explicacao">Academia com a estrutura que você merece à um preço que cabe no seu bolso.
+         A oportunidade que faltava para você cuidar da saúde e boa forma!</p>
       <a href="#">Matricule-se agora</a>
     </div>
 
@@ -21,7 +22,7 @@ layout: default
   <div class="conteudo">
     <header class="col-md-12">
       <p class="como-funciona-titulo">Saiba como funciona</p>
-      <p class="como-funciona-descricao">Aqui você pode desfrutar de equipamento de ponta e em grande quantidade.
+      <p class="como-funciona-descricao">Aqui você pode desfrutar de equipamentos de ultima geração e exclusivos no estado.
          Tudo isso em um ambiente sofisticado, com vestiários equipados e ambiente climatizado.
          Você merece tudo isso por um preço justo, com planos a partir de R$ 79,90 mensais*.</p>
     </header>
@@ -57,8 +58,9 @@ layout: default
           <p>Sabado e Domingo horário livre</p>
         </div>
         <a href="#" rel="nofollow">
-        <strong class="preco">R$ 79,90</strong>
-        <p class="contrate">Contrate Agora</p></a>
+          <strong class="preco">R$ 79,90</strong>
+        </a>
+        <a href="#"><p class="contrate">Contrate Agora</p></a>
       </div>
       <div class="col-md-2">
 
@@ -77,10 +79,44 @@ layout: default
           <li><a href="#">Confira todas as modalidades aqui!</a></li>
         </ul>
         <a href="#" rel="nofollow">
-        <strong class="preco">R$ 99,90</strong>
-        <p class="contrate">Contrate Agora</p></a>
+          <strong class="preco">R$ 99,90</strong>
+        </a>
+        <a href="#"><p class="contrate">Contrate Agora</p></a>
 
       </div>
     </div>
   </div>
 </section>
+<section id="area-mapa">
+  <header class="col-md-12">
+    <p>Escolha a BG Fitness mais perto de você</p>
+  </header>
+  <div id="mapa">
+
+  </div>
+</section>
+
+<script>
+  function myMap() {
+    var mapCanvas = document.getElementById("mapa");
+    var myCenter = new google.maps.LatLng(-9.635062, -35.720698);
+    var posicaoBgPraia = new google.maps.LatLng(-9.6482231,-35.7050996);
+    var posicaoBgFarol = new google.maps.LatLng(-9.621318, -35.738650);
+    var mapOptions = {center: myCenter, zoom: 14.5,
+    disableDefaultUI: true};
+    var map = new google.maps.Map(mapCanvas,mapOptions);
+
+    var markerPraia = new google.maps.Marker({
+    position: posicaoBgPraia,
+    animation: google.maps.Animation.BOUNCE
+    });
+    markerPraia.setMap(map);
+
+    var markerFarol = new google.maps.Marker({
+    position: posicaoBgFarol,
+    animation: google.maps.Animation.BOUNCE
+    });
+    markerFarol.setMap(map);
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyBCzwa-1utZ-8mBL_Zae-2wzHQlRlMJmkA"></script>
