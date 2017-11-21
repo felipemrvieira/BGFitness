@@ -7,6 +7,11 @@ $laranja-bg: #f58220;
 $cinza-escuro: #222227;
 $tamanho-footer: 80vh;
 
+@mixin borda-lateral($tamanho: 55px) {
+  padding-left: $tamanho;
+  padding-right: $tamanho;
+}
+
 @import 'bootstrap';
 
 @font-face {
@@ -30,6 +35,9 @@ $tamanho-footer: 80vh;
   src: url("../assets/fonts/RobotoCondensed-Light.ttf");
 }
 
+.btn{
+  border-radius: 0;
+}
 
 body{
   background-color: black;
@@ -37,7 +45,9 @@ body{
 }
 
 header{
-  padding: 30px 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @include borda-lateral();
   position: absolute;
   width: 100%;
   #menu{
@@ -171,13 +181,72 @@ header{
 
 .principal{
   height: 100vh;
+  @include borda-lateral();
   background-image: url("../assets/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  #chamada{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    h1{
+      text-align: center;
+      font-family: "Roboto-Condensed", sans-serif;
+      font-size: 3em;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+    }
+    p{
+      font-family: "Roboto-Thin", sans-serif;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 32px;
+    }
+    a{
+      font-family: "Roboto-Condensed", sans-serif;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 70px;
+      color: white;
+      background-color: $laranja-bg;
+      max-width: 100%;
+
+      &:hover{
+        background-color: darken($laranja-bg, 10% );
+        color: white;
+        transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+      }
+    }
+  }//chamada
+}//principal
+
+@media screen and (max-width: 991px) {
+  .principal{
+    #chamada{
+      h1{
+      }
+      p{
+      }
+      a{
+        padding: 15px 20px;
+        &:hover{
+        }
+      }
+    }//chamada
+  }//principal
 }
+
 .explicacao{
   background-color: #e1e1e3;
-  height: 90vh;
+  @include borda-lateral();
+  height: 80vh;
   #atletas{
     height: inherit;
     background-image: url("../assets/img/atletas.png");
@@ -191,6 +260,7 @@ header{
     #elementos-explicacao{
       text-align: center;
       align-self: center;
+      width: 100%;
       #titulo-explicacao{
         font-family: "Roboto-Condensed", sans-serif;
         font-size: 3em;
@@ -210,8 +280,6 @@ header{
         font-weight: 700;
         text-transform: uppercase;
         text-decoration: none;
-
-
         padding: 15px 70px;
         color: $cinza-escuro;
         border: 2px solid $azul-bg;
@@ -222,16 +290,52 @@ header{
           -webkit-transition-duration: 0.3s;
           -moz-transition-duration: 0.3s;
         }
-      }
-    }
+      }//a
+    }//elementos explicacao
   }
+}//explicacao
+
+@media screen and (max-width: 1100px) {
+  .explicacao{
+
+    @include borda-lateral();
+
+    #atletas{
+      display: none;
+    }
+    #container-explicacao{
+      width: 100%;
+      padding: 0;
+      #elementos-explicacao{
+
+        #titulo-explicacao{
+
+        }
+        #explicacao{
+
+        }
+        a{
+          max-width: 100%;
+          padding: 15px 25px;
+          &:hover{
+
+          }
+        }//a
+      }//elementos explicacao
+    }
+  }//explicacao
 }
+
 #como-funciona{
   display: flex;
   padding: 70px 90px 120px 90px;
+  @include borda-lateral();
   height: 100vh;
   background-image: url("../assets/img/bg-como-funciona.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   text-align: center;
   color: white;
   .conteudo{
@@ -273,15 +377,76 @@ header{
       margin-bottom: 30px;
     }
   }
-}
+}//como funciona
 
-#planos{
+@media screen and (max-width: 991px) {
+  #como-funciona{
+    height: 150vh;
+
+    @include borda-lateral();
+
+    color: white;
+    .conteudo{
+
+      .icon{
+        width: 150px;
+        height: 150px;
+        &:hover{
+        }
+        img{
+        }
+      }
+      .como-funciona-titulo{
+
+      }
+      .como-funciona-descricao{
+
+      }
+    }
+  }//como funciona
+}//media
+
+@media screen and (max-width: 510px) {
+  #como-funciona{
+    height: 150vh;
+
+    @include borda-lateral();
+
+    color: white;
+    .conteudo{
+      header{
+        display: none;
+      }
+
+      .icon{
+        width: 150px;
+        height: 150px;
+        &:hover{
+        }
+        img{
+        }
+      }
+      .como-funciona-titulo{
+
+      }
+      .como-funciona-descricao{
+
+      }
+    }
+  }//como funciona
+}//media
+
+
+
+#secao-planos{
   height: 110vh;
   background: url("../assets/img/bg-planos.png") top center repeat-y;
   padding: 45px;
+  @include borda-lateral();
 
   .conteudo{
     height: 100vh;
+    width: 100%;
     background-image: url("../assets/img/mulher-planos.png");
     background-repeat: no-repeat;
     background-size:45%;
@@ -319,7 +484,7 @@ header{
         font-weight: 300;
       }
       .plano{
-        padding: 40px 32px;
+        padding: 40px 45px;
         transition: background-color 300ms ease-out;
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
@@ -335,6 +500,7 @@ header{
         a{
           color: inherit;
           text-decoration: none;
+          border-radius: 0;
           &:hover{
             opacity: 0.9
           }
@@ -361,7 +527,7 @@ header{
           }
         }
 
-      }
+      }//plano
       #gold{
         #detalhe{
           font-size: 18px;
@@ -389,19 +555,104 @@ header{
 
 
   }//conteudo
-}//planos
+}//secao planos
+@media screen and (max-width: 991px) {
+  #secao-planos{
+    height: 180vh;
+    background: url("../assets/img/bg-planos.png") top center repeat-y;
+    padding: 45px;
+    @include borda-lateral();
+
+    .conteudo{
+      height: inherit;
+      width: 100%;
+      background-image: none;
+
+
+      header{
+        padding-top: 0;
+        padding-bottom: 0;
+        #planos-titulo{
+        }
+        #planos-subtitulo{
+          margin-bottom: 10px;
+        }
+      }
+
+      .planos{
+
+        strong{
+        }
+        .sub-plano{
+        }
+        .plano{
+          padding: 40px 10;
+
+          .preco{
+
+          }
+          a{
+
+            &:hover{
+            }
+            &:last-child{
+            }
+          }
+          .contrate{
+            }
+          &:hover{
+
+            .preco{
+
+            }
+            a{
+            }
+          }
+
+        }//plano
+        #gold{
+          #detalhe{
+
+          }
+        }
+        #platinum{
+          ul{
+            li{
+
+              &:last-child{
+
+                a{
+
+                }
+              }
+            }
+
+          }
+
+        }
+      }//planos
+
+
+    }//conteudo
+  }//secao planos
+}
+
 
 #area-mapa{
   background-color: white;
   header{
     position: absolute;
     z-index: 10;
+    margin-top: 32px;
     font-family: "Roboto-Condensed", sans-serif;
     font-size: 3em;
     font-weight: 700;
     color: #222227;
     text-transform: uppercase;
     text-align: center;
+    p{
+      text-shadow: 0px 0px 25px #FFFFFF;
+    }
   }
   #mapa{
     height: 100vh;
@@ -529,4 +780,70 @@ footer{
         } //matricular coluna 5
       }//conteudo
     }
+}//footer
+
+@media screen and (max-width: 991px) {
+  footer{
+      #esquerda{
+
+        #logo{
+          img{
+          }
+        }//logo
+        #enderecos{
+          h3{
+
+          }
+          p{
+          }
+        }
+        #nav-social{
+
+          li{
+
+          }
+        }//nav-social
+        #copyright{
+          margin-top: 56px;
+        }
+      }//esquerda
+      #direita{
+
+        #conteudo{
+
+          #horarios{
+            #titulos-horarios{
+
+              padding-left: 65px;
+            }
+            p{
+            }
+            span{
+
+            }
+            #detalhe{
+              p{
+              }
+
+            }
+          }//horarios coluna 7
+          #matricular{
+            h2{
+
+            }
+            a{
+
+              #quero-matricular{
+
+                &:hover{
+
+                }
+              }
+
+            }
+
+          } //matricular coluna 5
+        }//conteudo
+      }
+  }//footer
 }

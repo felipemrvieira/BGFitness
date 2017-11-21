@@ -2,6 +2,11 @@
 layout: default
 ---
 <section class="principal">
+  <div id="chamada">
+    <h1>Comece a treinar hoje mesmo</h1>
+    <p>Dê o primeiro passo e venha fazer a diferença!</p>
+    <a class="btn" href="#">Matricule-se agora</a>
+  </div>
 
 </section>
 <section class="explicacao">
@@ -10,10 +15,10 @@ layout: default
   </div>
   <div id="container-explicacao" class="col-md-7">
     <div id="elementos-explicacao">
-      <p id="titulo-explicacao">Academia para todos</p>
+      <h2 id="titulo-explicacao">Academia para todos</h2>
       <p id="explicacao">Academia com a estrutura que você merece à um preço que cabe no seu bolso.
          A oportunidade que faltava para você cuidar da saúde e boa forma!</p>
-      <a href="#">Matricule-se agora</a>
+      <a class="btn" href="#">Matricule-se agora</a>
     </div>
 
   </div>
@@ -42,7 +47,7 @@ layout: default
     </div>
   </div>
 </section>
-<section id="planos">
+<section id="secao-planos">
   <div class="conteudo">
     <header class="col-md-12">
       <p id="planos-titulo">Seu plano BG Fitness</p>
@@ -100,20 +105,28 @@ layout: default
   function myMap() {
     var mapCanvas = document.getElementById("mapa");
     var myCenter = new google.maps.LatLng(-9.635062, -35.720698);
+
     var posicaoBgPraia = new google.maps.LatLng(-9.6482231,-35.7050996);
     var posicaoBgFarol = new google.maps.LatLng(-9.621318, -35.738650);
-    var mapOptions = {center: myCenter, zoom: 14.5,
-    disableDefaultUI: true};
+
+    var mapOptions = {
+      center: myCenter,
+      zoom: 14,
+      disableDefaultUI: false,
+      scrollwheel: false
+    };
     var map = new google.maps.Map(mapCanvas,mapOptions);
 
     var markerPraia = new google.maps.Marker({
     position: posicaoBgPraia,
+    icon: "assets/img/pointer.png",
     animation: google.maps.Animation.BOUNCE
     });
     markerPraia.setMap(map);
 
     var markerFarol = new google.maps.Marker({
     position: posicaoBgFarol,
+    icon: "assets/img/pointer.png",
     animation: google.maps.Animation.BOUNCE
     });
     markerFarol.setMap(map);
