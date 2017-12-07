@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Institucional
 ---
 <section class="inst-principal">
   <div id="chamada">

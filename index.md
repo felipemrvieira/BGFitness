@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Início
+permalink: /
 ---
 <section class="principal">
   <div id="chamada">

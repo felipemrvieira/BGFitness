@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Atendimento
+permalink: /atendimento/
 ---
 <section id="atendimento">
   <div id="conteudo" class="col-md-8">

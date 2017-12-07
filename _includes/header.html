@@ -1,28 +1,31 @@
 <div class="overlay">
   <ul id="nav-mobile">
-    <li class="menu-item"><a href="#">Início</a></li>
-    <li class="menu-item"><a href="#">BG Fitness</a></li>
+    <li class="menu-item"><a href="/">Início</a></li>
+    <li class="menu-item"><a href="/institucional">BG Fitness</a></li>
     <li class="menu-item"><a href="#">Matricule-se</a></li>
-    <li class="menu-item"><a href="#">Atendimento</a></li>
+    <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
     <li id="menu-icon" class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#x2715;</a></li>
   </ul>
 </div>
 <header id="menu-header">
   <nav id="menu" class="container-fluid">
     <div id="logo">
-      <img class="img-responsive" src="assets/img/logo.png" alt="logo-bg">
+      <img class="img-responsive"  src="{{ "assets/img/logo.png" | relative_url }}" alt="logo-bg">
     </div>
     <div class="navegacao">
       <ul id="nav-principal">
-        <li class="menu-item"><a href="#">Início</a></li>
-        <li class="menu-item"><a href="#">BG Fitness</a></li>
+        <!-- {% for page in site.pages %}
+          <li class="menu-item"><a href="{{ page.url }}">{{page.title}}</a></li>
+        {% endfor%} -->
+        <li class="menu-item"><a href="/">Início</a></li>
+        <li class="menu-item"><a href="/institucional">BG Fitness</a></li>
         <li class="menu-item"><a href="#">Matricule-se</a></li>
-        <li class="menu-item"><a href="#">Atendimento</a></li>
+        <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
         <li class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#9776;</a></li>
       </ul>
       <ul id="nav-social">
-        <li><a href="#"><img src="assets/img/icon-social-ig.png" alt="instagram"></a></li>
-        <li><a href="#"><img src="assets/img/icon-social-fb.png" alt="facebook"></a></li>
+        <li><a href="#"><img src="{{ "assets/img/icon-social-ig.png" | relative_url }}" alt="instagram"></a></li>
+        <li><a href="#"><img src="{{ "assets/img/icon-social-fb.png" | relative_url }}" alt="facebook"></a></li>
       </ul>
     </div>
 
