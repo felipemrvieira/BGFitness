@@ -4,10 +4,10 @@
     <li class="menu-item"><a href="#">BG Fitness</a></li>
     <li class="menu-item"><a href="#">Matricule-se</a></li>
     <li class="menu-item"><a href="#">Atendimento</a></li>
-    <li class="icon-menu"><a href="javascript:void(0);" onclick="myFunction()">&#x2715;</a></li>
+    <li id="menu-icon" class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#x2715;</a></li>
   </ul>
 </div>
-<header>
+<header id="menu-header">
   <nav id="menu" class="container-fluid">
     <div id="logo">
       <img class="img-responsive" src="assets/img/logo.png" alt="logo-bg">
@@ -18,7 +18,7 @@
         <li class="menu-item"><a href="#">BG Fitness</a></li>
         <li class="menu-item"><a href="#">Matricule-se</a></li>
         <li class="menu-item"><a href="#">Atendimento</a></li>
-        <li class="icon-menu"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+        <li class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#9776;</a></li>
       </ul>
       <ul id="nav-social">
         <li><a href="#"><img src="assets/img/icon-social-ig.png" alt="instagram"></a></li>
@@ -30,7 +30,19 @@
 </header>
 
 <script>
-  function myFunction(){
-    alert("teste");
-  }
+function abreMenu(){
+  $(".overlay").toggleClass("open");
+}
+</script>
+
+<script>
+  var num = 50;
+
+  $(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('#menu-header').addClass('fixed');
+    } else {
+        $('#menu-header').removeClass('fixed');
+    }
+  });
 </script>
