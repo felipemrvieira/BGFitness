@@ -32,7 +32,8 @@ layout: default
     <header>
       <h2>Unidade BG Farol</h2>
       <p>No coração da cidade, a BG Farol é a nossa mais nova unidade e é ideal para você
-        que mora ou trabalha por perto e quer aproveitar o que tem de melhor opção na região</p>
+        que quer aproveitar o que tem de melhor na região. Além do padrão já conhecido
+        de maquinários e suporte profissional, temos estacionamento coberto e seguro.</p>
     </header>
     <div id="galeria" class="col-md-12">
       <a href="assets/img/Farol/bg1.jpeg" data-lightbox="bgfarol">
@@ -65,8 +66,7 @@ layout: default
   <div id="descricao-praia" class="col-md-6">
     <header>
       <h2>Unidade BG Praia</h2>
-      <p>No coração da cidade, a BG Farol é a nossa mais nova unidade e é ideal para você
-        que mora ou trabalha por perto e quer aproveitar o que tem de melhor opção na região</p>
+      <p>Na Jatiúca, pertinho da praia, a unidade BG Praia conta com maquinário de última geração, estacionamento próprio, e o suporte profissional adequado que é a marca da BG.</p>
     </header>
     <div id="galeria" class="col-md-12">
       <a href="assets/img/Praia/bg1.jpg" data-lightbox="bgpraia">
