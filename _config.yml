@@ -18,9 +18,12 @@ email: contato@bgfitness.com
 description: "Com unidades no Farol e Jatiúca,
 a academia BG Fitness Maceió te oferece maquinário exclusivo, suporte profissional para seus treinos,
 diversas modalidades gratuitas e um preço que cabe no seu bolso!"
-baseurl: ""
+baseurl: "/"
 url: "http://bgfitness.com.br"
 github_username:  felipemrvieira
+matricula-url: "https://bgfitness1.websiteseguro.com/"
+instagram: "https://www.instagram.com/bg.fitness/"
+facebook: "https://www.facebook.com/bgfitnessmaceio/"
 
 # Build settings
 markdown: kramdown

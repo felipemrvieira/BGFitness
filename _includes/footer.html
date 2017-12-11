@@ -13,8 +13,8 @@
       <p>Informações: (82) 99106-3360</p>
     </div>
     <ul id="nav-social">
-      <li><a href="#"><img src="assets/img/icon-social-ig.png" alt="instagram"></a></li>
-      <li><a href="#"><img src="assets/img/icon-social-fb.png" alt="facebook"></a></li>
+      <li><a href="{{site.instagram}}" target="_blank"><img src="/assets/img/icon-social-ig.png" alt="instagram"></a></li>
+      <li><a href="{{site.facebook}}" target="_blank"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
     </ul>
     <div id="copyright" class="col-md-12">
       <p>BG Fitness <span>© 2017 - Todos os direitos reservados.</span></p>
@@ -23,7 +23,7 @@
 
   </div>
   <div id="direita" class="col-md-8">
-    <div id="conteudo" class="">
+    <div id="conteudo" class="col-md-12">
       <div id="horarios" class="col-md-7">
         <div class="col-md-12">
           <h2 id="titulos-horarios">Horário de funcionamento</h2>
@@ -47,7 +47,7 @@
       <div id="matricular" class="col-md-5">
         <div class="col-md-12">
           <h2 id="titulo-matricular">Comece já</h2>
-          <a href="#" rel="nofollow">
+          <a href="{{ site.matricula-url }}" rel="nofollow">
             <strong id="quero-matricular">Quero me matricular</strong>
           </a>
         </div>

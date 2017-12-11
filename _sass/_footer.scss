@@ -6,7 +6,7 @@ footer{
       min-height: $tamanho-footer;
       background: url("../img/bg-footer.png") left center no-repeat;
       z-index: 2;
-      padding: 100px 32px;
+      padding: 65px 32px;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -50,7 +50,7 @@ footer{
       }
     }//esquerda
     #direita{
-      padding: 100px 32px;
+      padding: 50px 32px;
       min-height: $tamanho-footer;
       background-color: $azul-bg;
       #conteudo{
@@ -125,7 +125,9 @@ footer{
 @media screen and (max-width: 991px) {
   footer{
       #esquerda{
-
+        @include borda-lateral-mobile();
+        padding-top: 45px;
+        padding-bottom: 45px;
         #logo{
           img{
           }
@@ -144,10 +146,13 @@ footer{
           }
         }//nav-social
         #copyright{
-          margin-top: 56px;
+          margin-top: 30px;
         }
       }//esquerda
       #direita{
+        @include borda-lateral-mobile();
+        padding-top: 45px;
+        padding-bottom: 45px;
 
         #conteudo{
 
@@ -168,6 +173,7 @@ footer{
             }
           }//horarios coluna 7
           #matricular{
+            padding: 0;
             h2{
 
             }
@@ -191,6 +197,7 @@ footer{
 @media screen and (max-width: 360px) {
   footer{
       #esquerda{
+        @include borda-lateral-mobile();
 
         #logo{
           img{
@@ -210,12 +217,18 @@ footer{
           }
         }//nav-social
         #copyright{
-          margin-top: 56px;
+          margin-top: 30px;
         }
       }//esquerda
       #direita{
 
         #conteudo{
+          padding: 0;
+          .col-md-1, .col-md-2, .col-md-3, .col-md-4,
+          .col-md-5, .col-md-6, .col-md-7, .col-md-8,
+          .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+            padding: 0;
+          }
 
           #horarios{
             #titulos-horarios{

@@ -64,6 +64,8 @@ header{
 @media screen and (max-width: 1100px) {
 
   header{
+    @include borda-lateral-mobile();
+
     #menu{
       #logo{
         display: inline-block;

@@ -2,7 +2,7 @@
   <ul id="nav-mobile">
     <li class="menu-item"><a href="/">Início</a></li>
     <li class="menu-item"><a href="/institucional">BG Fitness</a></li>
-    <li class="menu-item"><a href="#">Matricule-se</a></li>
+    <li class="menu-item"><a href="{{ site.matricula-url }}">Matricule-se</a></li>
     <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
     <li id="menu-icon" class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#x2715;</a></li>
   </ul>
@@ -19,13 +19,13 @@
         {% endfor%} -->
         <li class="menu-item"><a href="/">Início</a></li>
         <li class="menu-item"><a href="/institucional">BG Fitness</a></li>
-        <li class="menu-item"><a href="#">Matricule-se</a></li>
+        <li class="menu-item"><a href="{{ site.matricula-url }}">Matricule-se</a></li>
         <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
         <li class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#9776;</a></li>
       </ul>
       <ul id="nav-social">
-        <li><a href="#"><img src="{{ "assets/img/icon-social-ig.png" | relative_url }}" alt="instagram"></a></li>
-        <li><a href="#"><img src="{{ "assets/img/icon-social-fb.png" | relative_url }}" alt="facebook"></a></li>
+        <li><a href="{{site.instagram}}" target="_blank"><img src="{{ "assets/img/icon-social-ig.png" | relative_url }}" alt="instagram" ></a></li>
+        <li><a href="{{site.facebook  }}" target="_blank"><img src="{{ "assets/img/icon-social-fb.png" | relative_url }}" alt="facebook" ></a></li>
       </ul>
     </div>
 

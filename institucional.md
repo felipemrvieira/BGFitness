@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Institucional
+permalink: /institucional//
 ---
 <section class="inst-principal">
   <div id="chamada">
@@ -19,7 +20,7 @@ title: Institucional
         <li>Treino direcionado ao seu perfil</li>
         <li>Suporte profissional</li>
       </ul>
-      <a class="btn" href="#">Matricule-se agora</a>
+      <a class="btn" href="{{ site.matricula-url }}">Matricule-se agora</a>
     </div>
     <div class="col-md-5">
       <iframe width="95%" height="310"
@@ -28,6 +29,7 @@ title: Institucional
     </div>
   </div>
 </section>
+
 <section id="farol">
   <div id="descricao-farol" class="col-md-6">
     <header>
@@ -37,23 +39,23 @@ title: Institucional
         de maquinários e suporte profissional, temos estacionamento coberto e seguro.</p>
     </header>
     <div id="galeria" class="col-md-12">
-      <a href="assets/img/Farol/bg1.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg1.jpeg" alt="">
+      <a href="/assets/img/Farol/bg1.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg1.jpeg" alt="">
       </a>
-      <a href="assets/img/Farol/bg2.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg2.jpeg" alt="">
+      <a href="/assets/img/Farol/bg2.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg2.jpeg" alt="">
       </a>
-      <a href="assets/img/Farol/bg3.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg3.jpeg" alt="">
+      <a href="/assets/img/Farol/bg3.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg3.jpeg" alt="">
       </a>
-      <a href="assets/img/Farol/bg4.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg4.jpeg" alt="">
+      <a href="/assets/img/Farol/bg4.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg4.jpeg" alt="">
       </a>
-      <a href="assets/img/Farol/bg5.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg5.jpeg" alt="">
+      <a href="/assets/img/Farol/bg5.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg5.jpeg" alt="">
       </a>
-      <a href="assets/img/Farol/bg6.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="assets/img/Farol/bg6.jpeg" alt="">
+      <a href="/assets/img/Farol/bg6.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg6.jpeg" alt="">
       </a>
     </div>
   </div>
@@ -70,23 +72,23 @@ title: Institucional
       <p>Na Jatiúca, pertinho da praia, a unidade BG Praia conta com maquinário de última geração, estacionamento próprio, e o suporte profissional adequado que é a marca da BG.</p>
     </header>
     <div id="galeria" class="col-md-12">
-      <a href="assets/img/Praia/bg1.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg1.jpg" alt="">
+      <a href="/assets/img/Praia/bg1.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg1.jpg" alt="">
       </a>
-      <a href="assets/img/Praia/bg2.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg2.jpg" alt="">
+      <a href="/assets/img/Praia/bg2.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg2.jpg" alt="">
       </a>
-      <a href="assets/img/Praia/bg3.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg3.jpg" alt="">
+      <a href="/assets/img/Praia/bg3.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg3.jpg" alt="">
       </a>
-      <a href="assets/img/Praia/bg4.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg4.jpg" alt="">
+      <a href="/assets/img/Praia/bg4.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg4.jpg" alt="">
       </a>
-      <a href="assets/img/Praia/bg5.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg5.jpg" alt="">
+      <a href="/assets/img/Praia/bg5.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg5.jpg" alt="">
       </a>
-      <a href="assets/img/Praia/bg6.jpg" data-lightbox="bgpraia">
-        <img class="img-thumbnail" src="assets/img/Praia/bg6.jpg" alt="">
+      <a href="/assets/img/Praia/bg6.jpg" data-lightbox="bgpraia">
+        <img class="img-thumbnail" src="/assets/img/Praia/bg6.jpg" alt="">
       </a>
     </div>
   </div>
@@ -131,13 +133,13 @@ title: Institucional
 
     var markerFarol = new google.maps.Marker({
     position: posicaoBgFarol,
-    icon: "assets/img/pointer.png"
+    icon: "/assets/img/pointer.png"
     });
     markerFarol.setMap(mapFarol);
 
     var markerPraia = new google.maps.Marker({
     position: posicaoBgPraia,
-    icon: "assets/img/pointer.png"
+    icon: "/assets/img/pointer.png"
     });
     markerPraia.setMap(mapPraia);
   }

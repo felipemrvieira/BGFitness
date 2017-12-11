@@ -14,20 +14,20 @@ permalink: /atendimento/
 <section id="form">
   <h2>Envie-nos uma mensagem</h2>
   <div class="col-md-12">
-    <form>
+    <form action="https://formspree.io/felipemrvieira@gmail.com" method="post">
       <div class="form-group col-md-12">
-        <input type="text" class="form-control input-lg" id="nome" placeholder="Nome:">
+        <input type="text" class="form-control input-lg" id="nome" name="nome" placeholder="Nome:">
       </div>
       <div class="form-group col-md-6">
-        <input type="email" class="form-control input-lg" id="email" placeholder="Email:">
+        <input type="email" class="form-control input-lg" id="email" name="email" placeholder="Email:">
       </div>
       <div class="form-group col-md-6">
-        <input type="text" class="form-control input-lg" id="telefone" placeholder="Telefone:">
+        <input type="text" class="form-control input-lg" id="telefone" name="telefone" placeholder="Telefone:">
       </div>
       <div class="form-group col-md-12">
-        <textarea class="form-control input-lg" rows="5" id="mensagem" placeholder="Mensagem:"></textarea>
+        <textarea class="form-control input-lg" rows="5" id="mensagem" name="mansagem" placeholder="Mensagem:"></textarea>
       </div>
-      <div class="col-md-12">
+      <div id="botao" class="col-md-12">
         <button type="submit" class="btn btn-primary">Enviar</button>
       </div>
 

@@ -11,6 +11,10 @@ $tamanho-footer: 80vh;
   padding-left: $tamanho;
   padding-right: $tamanho;
 }
+@mixin borda-lateral-mobile($tamanho: 35px) {
+  padding-left: $tamanho;
+  padding-right: $tamanho;
+}
 
 @import 'bootstrap';
 

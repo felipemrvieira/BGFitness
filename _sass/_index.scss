@@ -49,12 +49,18 @@
 
 @media screen and (max-width: 991px) {
   .principal{
+    @include borda-lateral-mobile();
+
     #chamada{
       h1{
       }
       p{
       }
       a{
+        padding: 10px 15px;
+        font-size: 18px;
+        float: none;
+        width: 96%;
         padding: 15px 20px;
         &:hover{
         }
@@ -118,7 +124,7 @@
 @media screen and (max-width: 1100px) {
   .explicacao{
 
-    @include borda-lateral();
+    @include borda-lateral-mobile();
 
     #atletas{
       display: none;
@@ -137,6 +143,8 @@
         a{
           max-width: 100%;
           padding: 15px 25px;
+          font-size: 18px;
+          float: none;
           &:hover{
 
           }
@@ -202,7 +210,7 @@
   #como-funciona{
     min-height: 150vh;
 
-    @include borda-lateral();
+    @include borda-lateral-mobile();
 
     color: white;
     .conteudo{
@@ -229,7 +237,7 @@
   #como-funciona{
     min-height: 150vh;
 
-    @include borda-lateral();
+    @include borda-lateral-mobile();
 
     color: white;
     .conteudo{
@@ -279,6 +287,7 @@
         font-size: 2.5em;
         font-weight: 700;
         text-transform: uppercase;
+        margin: 0;
 
       }
       #planos-subtitulo{
@@ -379,7 +388,7 @@
   #secao-planos{
     background: url("../img/bg-planos.png") top center repeat-y;
     padding: 45px;
-    @include borda-lateral();
+    @include borda-lateral-mobile();
 
     .conteudo{
       min-height: inherit;
@@ -407,7 +416,7 @@
           padding: 40px 10px;
 
           .preco{
-
+            font-size: 30px;
           }
           a{
 

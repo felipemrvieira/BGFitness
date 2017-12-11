@@ -7,7 +7,7 @@ permalink: /
   <div id="chamada">
     <h1>Comece a treinar hoje mesmo</h1>
     <p>Dê o primeiro passo e venha fazer a diferença!</p>
-    <a class="btn" href="#">Matricule-se agora</a>
+    <a class="btn" href="{{ site.matricula-url }}">Matricule-se agora</a>
   </div>
 
 </section>
@@ -20,7 +20,7 @@ permalink: /
       <h2 id="titulo-explicacao">Academia para todos</h2>
       <p id="explicacao">Academia com a estrutura que você merece à um preço que cabe no seu bolso.
          A oportunidade que faltava para você cuidar da saúde e boa forma!</p>
-      <a class="btn" href="#">Matricule-se agora</a>
+      <a class="btn" href="{{ site.matricula-url }}">Matricule-se agora</a>
     </div>
 
   </div>
@@ -38,7 +38,7 @@ permalink: /
         <img src="assets/img/icon-arrow.png" alt="matricula">
       </div>
       <p class="como-funciona-titulo">Como faço minha matrícula?</p>
-      <p class="como-funciona-descricao">A matrícula pode ser feita aqui pelo site <a href="#">clicando aqui</a> ou no balcão da academia.</p>
+      <p class="como-funciona-descricao">A matrícula pode ser feita aqui pelo site <a href="{{ site.matricula-url }}">clicando aqui</a> ou no balcão da academia.</p>
     </div>
     <div class="col-md-6">
       <div class="icon">
@@ -61,13 +61,13 @@ permalink: /
         <p class="sub-plano">Musculação e Aeróbicos em horário delimitado:</p>
         <div id="detalhe">
           <p>Horário do plano durante a semana:</p>
-          <p>De segunda à sexta de 09:00 às 15:00</p>
-          <p>Sabado e Domingo horário livre</p>
+          <p>Segunda à sexta das 09:00 às 15:00</p>
+          <p>Sábado e Domingo horário livre</p>
         </div>
-        <a href="#" rel="nofollow">
+        <a href="{{ site.matricula-url }}" rel="nofollow">
           <strong class="preco">R$ 79,90</strong>
         </a>
-        <a href="#"><p class="contrate">Contrate Agora</p></a>
+        <a href="{{ site.matricula-url }}"><p class="contrate">Contrate Agora</p></a>
       </div>
       <div class="col-md-2">
 
@@ -85,10 +85,10 @@ permalink: /
           <li>e mais!</li>
           <li><a href="#">Confira todas as modalidades aqui!</a></li>
         </ul>
-        <a href="#" rel="nofollow">
+        <a href="{{ site.matricula-url }}" rel="nofollow">
           <strong class="preco">R$ 99,90</strong>
         </a>
-        <a href="#"><p class="contrate">Contrate Agora</p></a>
+        <a href="{{ site.matricula-url }}"><p class="contrate">Contrate Agora</p></a>
 
       </div>
     </div>
