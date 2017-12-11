@@ -6,7 +6,7 @@ footer{
       min-height: $tamanho-footer;
       background: url("../img/bg-footer.png") left center no-repeat;
       z-index: 2;
-      padding: 65px 32px;
+      padding: 80px 32px;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -119,6 +119,47 @@ footer{
 
         } //matricular coluna 5
       }//conteudo
+      #social{
+        margin-top: 40px;
+        #titulo-blog{
+          font-size: 28px;
+          font-family: "Roboto-Bold", sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        .post{
+          max-width: 100%;
+          .avatar{
+            padding-top: 14px;
+            padding-right: 0;
+            img{
+              width: 110px;
+              height: 110px;
+              max-width: 100%;
+              float: right;
+            }
+          }
+          .post-conteudo{
+            .post-titulo{
+              margin-bottom: 0;
+              font-family: "Roboto-Condensed", sans-serif;
+            }
+            .post-data{
+              font-family: "Roboto-Light", sans-serif;
+            }
+            .post-resumo{
+              font-family: "Roboto-Regular", sans-serif;
+              font-size: 16px;
+            }
+            .post-link{
+              font-family: "Roboto-Regular", sans-serif;
+              font-size: 16px;
+            }
+          }
+
+
+        }
+      }
     }
 }//footer
 
