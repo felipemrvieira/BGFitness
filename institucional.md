@@ -30,8 +30,8 @@ permalink: /institucional//
   </div>
 </section>
 
-<section id="farol">
-  <div id="descricao-farol" class="col-md-6">
+<section id="" class="unidade">
+  <div id="descricao-unidade" class="col-md-12">
     <header>
       <h2>Unidade BG Farol</h2>
       <p>No coração da cidade, a BG Farol é a nossa mais nova unidade e é ideal para você
@@ -58,15 +58,109 @@ permalink: /institucional//
         <img class="img-thumbnail" src="/assets/img/Farol/bg6.jpeg" alt="">
       </a>
     </div>
+    <div id="cronograma" class="col-md-12">
+      <h3 class="center">Cronograma de aulas - Unidade BG Farol</h3>
+      <div class="container">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Segunda</th>
+              <th>Terça</th>
+              <th>Quarta</th>
+              <th>Quinta</th>
+              <th>Sexta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>6:00</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+            </tr>
+            <tr>
+              <td>7:00</td>
+              <td>Ritmos Latinos</td>
+              <td>Muay Thai</td>
+              <td>Ritmos Latinos</td>
+              <td>Muay Thai</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>8:00</td>
+              <td>BG Funcional</td>
+              <td>BG Running</td>
+              <td>BG Abdominal</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>16:00</td>
+              <td>BG Funcional</td>
+              <td>BG Abdominal</td>
+              <td>BG Resistência</td>
+              <td>BG Abdominal</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>Zumba</td>
+              <td>BG Funcional</td>
+              <td>Zumba</td>
+              <td>Bg Funcional</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>18:00</td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+              <td>Muay Thai</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>20:00</td>
+              <td>BG Abdominal</td>
+              <td>Ritmos Latinos</td>
+              <td>BG Abdominal</td>
+              <td>Ritmos Latinos</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>20:30</td>
+              <td>BG Step</td>
+              <td>BG Funcional</td>
+              <td>BG Jump</td>
+              <td>BG Funcional</td>
+              <td>-</td>
+            </tr>
+
+          </tbody>
+        </table>
+        <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
+          Não existe custo adicional para participar de nenhuma modalidade.
+          Nosso cronograma de aulas pode ser atualizado e/ou alterado visando atender as maiores demandas.</p>
+      </div>
+    </div>
   </div>
-  <div id="mapa-farol" class="col-md-6">
+  <div id="mapa-farol" class="col-md-12">
   </div>
 </section>
 
-<section id="praia">
-  <div id="mapa-praia" class="col-md-6">
-  </div>
-  <div id="descricao-praia" class="col-md-6">
+<section id="" class="unidade">
+
+  <div id="descricao-unidade" class="col-md-12">
     <header>
       <h2>Unidade BG Praia</h2>
       <p>Na Jatiúca, pertinho da praia, a unidade BG Praia conta com maquinário de última geração, estacionamento próprio, e o suporte profissional adequado que é a marca da BG.</p>
@@ -91,6 +185,103 @@ permalink: /institucional//
         <img class="img-thumbnail" src="/assets/img/Praia/bg6.jpg" alt="">
       </a>
     </div>
+    <div id="cronograma" class="col-md-12">
+      <h3 class="center">Cronograma de aulas - Unidade BG Praia</h3>
+      <div class="container">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Segunda</th>
+              <th>Terça</th>
+              <th>Quarta</th>
+              <th>Quinta</th>
+              <th>Sexta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>6:00</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+            </tr>
+            <tr>
+              <td>7:00</td>
+              <td>Ritmos Latinos</td>
+              <td>Muay Thai</td>
+              <td>Ritmos Latinos</td>
+              <td>Muay Thai</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>8:00</td>
+              <td>BG Funcional</td>
+              <td>BG Running</td>
+              <td>BG Abdominal</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>16:00</td>
+              <td>BG Funcional</td>
+              <td>BG Abdominal</td>
+              <td>BG Resistência</td>
+              <td>BG Abdominal</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>17:00</td>
+              <td>Zumba</td>
+              <td>BG Funcional</td>
+              <td>Zumba</td>
+              <td>Bg Funcional</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>18:00</td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+              <td>Muay Thai</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional</td>
+            </tr>
+            <tr>
+              <td>20:00</td>
+              <td>BG Abdominal</td>
+              <td>Ritmos Latinos</td>
+              <td>BG Abdominal</td>
+              <td>Ritmos Latinos</td>
+              <td>BG Abdominal</td>
+            </tr>
+            <tr>
+              <td>20:30</td>
+              <td>BG Step</td>
+              <td>BG Funcional</td>
+              <td>BG Jump</td>
+              <td>BG Funcional</td>
+              <td>-</td>
+            </tr>
+
+          </tbody>
+        </table>
+        <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
+          Não existe custo adicional para participar de nenhuma modalidade.
+          Nosso cronograma de aulas pode ser atualizado e/ou alterado visando atender as maiores demandas.</p>
+      </div>
+    </div>
+  </div>
+  <div id="mapa-praia" class="col-md-12">
   </div>
 </section>
 

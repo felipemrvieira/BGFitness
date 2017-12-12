@@ -5,8 +5,8 @@ permalink: /
 ---
 <section class="principal">
   <div id="chamada">
-    <h1>Comece a treinar hoje mesmo</h1>
-    <p>Dê o primeiro passo e venha fazer a diferença!</p>
+    <h1>Dê o primeiro passo e venha fazer a diferença</h1>
+    <p>Comece a treinar hoje mesmo!</p>
     <a class="btn" href="{{ site.matricula-url }}">Matricule-se agora</a>
   </div>
 

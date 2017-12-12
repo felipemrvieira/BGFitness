@@ -116,11 +116,13 @@
   }//principal
 }
 
-#farol{
-  height: 85vh;
+.unidade{
+  // min-height: 150vh;
 
   background-color: white;
-  #descricao-farol{
+  #descricao-unidade{
+    background-color: inherit;
+    padding: 32px;
     height: inherit;
     header{
       position: relative;
@@ -141,18 +143,35 @@
           margin: 4px;
         }
       }
+    }//galeria
+    #cronograma{
+      background-color: white;
+      padding: 64px;
+      h3{
+        @include titulo;
+        text-align: center;
+        margin-bottom: 32px;
+        font-size: 20px;
+      }
+      .table{
+        th{
+          font-family: "Roboto-Condensed", sans-serif;
+        }
+      }
     }
 
   }//descricao farol
-  #mapa-farol{height: inherit;}
+  #mapa-farol{height: 60vh;}
+  #mapa-praia{height: 60vh;}
+
 }//farol
 
 @media screen and (max-width: 991px) {
-  #farol{
+  .unidade{
     padding-top: 24px;
     padding-bottom: 24px;
     height: auto;
-    #descricao-farol{
+    #descricao-unidade{
       header{
 
         h2{
@@ -165,69 +184,24 @@
           img{
             width: 100px;
             height: 100px;
+          }
+        }
+      }
+      #cronograma{
+        padding: 0;
+        overflow: scroll;
+        h3{
+          margin-bottom: 12px;
+          font-size: 18px;
+        }
+        .table{
+          th{
           }
         }
       }
 
     }//descricao farol
     #mapa-farol{display: none;}
-  }//farol
-}
-
-
-#praia{
-  height: 85vh;
-  background-color: white;
-
-  #descricao-praia{
-    height: inherit;
-    header{
-      position: relative;
-      padding-left: 22px;
-      padding-right: 22px;
-      h2{
-        @include titulo;
-      }
-      p{
-        @include descricao;
-      }
-    }
-    #galeria{
-      a{
-        img{
-          width: 150px;
-          height: 150px;
-          margin: 4px;
-        }
-      }
-    }
-
-  }
-  #mapa-praia{height: inherit;}
-}
-
-@media screen and (max-width: 991px) {
-  #praia{
-    height: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    #descricao-praia{
-      header{
-        h2{
-        }
-        p{
-        }
-      }
-      #galeria{
-        a{
-          img{
-            width: 100px;
-            height: 100px;
-          }
-        }
-      }
-
-    }
     #mapa-praia{display: none;}
-  }
+  }//farol
 }
