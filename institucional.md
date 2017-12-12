@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Institucional
+title: BG Fitness Maceió - Institucional
 permalink: /institucional//
 ---
 <section class="inst-principal">

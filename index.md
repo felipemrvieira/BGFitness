@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Início
+title: BG Fitness Maceió
 permalink: /
 ---
 <section class="principal">

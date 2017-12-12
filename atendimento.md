@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Atendimento
+title: BG Fitness Maceió - Atendimento
 permalink: /atendimento/
 ---
 <section id="atendimento">
