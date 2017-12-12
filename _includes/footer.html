@@ -56,33 +56,43 @@
     </div>
 
     <div id="social" class="col-md-12">
-      <div class="col-md-12">
+      <div id="footer-posts" class="col-md-12">
         <h2 id="titulo-blog">Publicações recentes do nosso Blog</h2>
+        {% if site.posts.size == 0%}
+          <h2>Sem publicações para exibir</h2>
+        {% else %}
+          {% for post in site.posts %}
+            <div class="post">
+              <!-- <div class="col-md-2 avatar">
+                <img class="img-circle" src="/assets/img/avatar.png" alt="avatar">
+              </div> -->
+              <div class="col-md-12 post-conteudo">
+                <a href="{{ post.url }}"><h3 class="post-titulo">{{ post.title }}</h3></a>
+                <p class="post-data">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                {% case m %}
+                  {% when '1' %}Jan
+                  {% when '2' %}Fev
+                  {% when '3' %}Mar
+                  {% when '4' %}Abr
+                  {% when '5' %}Mai
+                  {% when '6' %}Jun
+                  {% when '7' %}Jul
+                  {% when '8' %}Ago
+                  {% when '9' %}Set
+                  {% when '10' %}Out
+                  {% when '11' %}Nov
+                  {% when '12' %}Dez
+                {% endcase %}
+                {{ post.date | date: "%Y" }}</p>
+                <p class="post-resumo">{{ post.resumo }}</p>
+                <p class="post-link"><a href="{{ post.url }}">Leia a publicação completa</a></p>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
 
-        <div class="post">
-          <div class="col-md-2 avatar">
-            <img class="img-circle" src="/assets/img/avatar.png" alt="avatar">
-          </div>
-          <div class="col-md-10 post-conteudo">
-            <h3 class="post-titulo">Título do post</h3>
-            <p class="post-data">10/12/2017</p>
-            <p class="post-resumo">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p class="post-link"><a href="#">Leia a publicação completa</a></p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="col-md-2 avatar">
-            <img class="img-circle" src="/assets/img/avatar.png" alt="avatar">
-          </div>
-          <div class="col-md-10 post-conteudo">
-            <h3 class="post-titulo">Título do post</h3>
-            <p class="post-data">10/12/2017</p>
-            <p class="post-resumo">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p class="post-link"><a href="#">Leia a publicação completa</a></p>
-          </div>
-        </div>
 
       </div>
       <div class="col-md-6">

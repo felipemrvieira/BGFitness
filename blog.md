@@ -21,13 +21,13 @@ permalink: /blog/
         <div class="col-sm-6 col-md-3 post">
           <div class="thumbnail">
             <div class="cresce">
-              <a href="{{ post.url }}"><img class="img img-responsive" src="/assets/img/Farol/bg1.jpeg" alt=""></a>
+              <a href="{{ post.url }}"><img class="img img-responsive" src="/assets/img/Farol/{{ post.background }}" alt=""></a>
             </div>
 
             <div class="caption">
               <div class="post-conteudo">
                 <a href="{{ post.url }}"><h3 class="post-titulo">{{ post.title }}</h3></a>
-                <p class="post-data"><!-- Whitespace added for readability -->
+                <p class="post-data">
                 {% assign m = post.date | date: "%-m" %}
                 {{ post.date | date: "%-d" }}
                 {% case m %}
@@ -45,8 +45,8 @@ permalink: /blog/
                   {% when '12' %}Dez
                 {% endcase %}
                 {{ post.date | date: "%Y" }}</p>
-                <p class="post-resumo">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="post-resumo">{{ post.resumo }}</p>
+                <img class="img-circle avatar" src="/assets/img/{{ post.avatar }}" alt="avatar">
               </div>
             </div>
           </div>

@@ -140,10 +140,19 @@ footer{
             }
           }
           .post-conteudo{
-            .post-titulo{
-              margin-bottom: 0;
-              font-family: "Roboto-Condensed", sans-serif;
+            a{
+              text-decoration: none;
+              color: inherit;
+
+              .post-titulo{
+                margin-bottom: 0;
+                font-family: "Roboto-Condensed", sans-serif;
+                &:hover{
+                  opacity: 0.8;
+                }
+              }
             }
+
             .post-data{
               font-family: "Roboto-Light", sans-serif;
             }
@@ -152,14 +161,17 @@ footer{
               font-size: 16px;
             }
             .post-link{
-              font-family: "Roboto-Regular", sans-serif;
+              font-family: "Roboto-Light", sans-serif;
               font-size: 16px;
+              &:hover{
+                text-decoration: underline;
+              }
             }
           }
 
 
         }
-      }
+      }//social
     }
 }//footer
 
@@ -231,6 +243,47 @@ footer{
 
           } //matricular coluna 5
         }//conteudo
+        #social{
+          padding: 0;
+          #footer-posts{
+            background-color: inherit;
+            padding: 0;
+            #titulo-blog{
+
+            }
+            .post{
+              .avatar{
+
+                img{
+
+                }
+              }
+              .post-conteudo{
+                a{
+                  .post-titulo{
+                    &:hover{
+                    }
+                  }
+                }
+
+                .post-data{
+
+                }
+                .post-resumo{
+
+                }
+                .post-link{
+                  &:hover{
+                  }
+                }
+              }
+
+
+            }
+          }
+
+
+        }//social
       }
   }//footer
 }

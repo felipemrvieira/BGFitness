@@ -1,25 +1,38 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
+<div id="layout-post">
+  <section id="blog-header">
+    <div id="conteudo-header" class="col-md-12">
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.resumo }}</p>
+      <p class="post-info">Autor: {{ page.author }}. Publicado em {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Jan
+        {% when '2' %}Fev
+        {% when '3' %}Mar
+        {% when '4' %}Abr
+        {% when '5' %}Mai
+        {% when '6' %}Jun
+        {% when '7' %}Jul
+        {% when '8' %}Ago
+        {% when '9' %}Set
+        {% when '10' %}Out
+        {% when '11' %}Nov
+        {% when '12' %}Dez
+      {% endcase %}
+      {{ page.date | date: "%Y" }}.</p>
+    </div>
+  </section>
+  <section id="conteudo-principal" class="col-md-12">
     {{ content }}
-  </div>
+  </section>
+</div>
 
-  {% if site.disqus.shortname %}
+
+
+
+  <!-- {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
-  {% endif %}
-</article>
+  {% endif %} -->

@@ -1,0 +1,60 @@
+#layout-post{
+  background-color: $cinza-claro;
+  #blog-header{
+    min-height: 60vh;
+    background-image: url("../img/bg-fale-conosco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    #conteudo-header{
+      color: white;
+      align-self: center;
+      padding: 64px 156px;
+      h2{
+        @include titulo;
+        text-align: center;
+      }
+      p{
+        @include descricao;
+        text-align: center;
+      }
+      .post-info{
+        font-size: 14px;
+      }
+    }
+
+  }//blog-header
+  #conteudo-principal{
+    padding: 64px 156px;
+    background-color: $cinza-claro;
+    font-family: "Roboto-Thin", sans-serif;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #layout-post{
+    #blog-header{
+
+      #conteudo-header{
+        padding: 72px 22px 32px 22px;
+
+        h2{
+
+        }
+        p{
+
+        }
+        .post-info{
+        }
+      }
+
+    }//blog-header
+    #conteudo-principal{
+      padding: 72px 22px 32px 22px;
+
+    }
+  }
+
+}

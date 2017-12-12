@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 991px) {
   #atendimento{
-
+    min-height: 102vh;
     #conteudo{
       @include borda-lateral-mobile();
       h2{
