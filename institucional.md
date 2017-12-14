@@ -20,7 +20,7 @@ permalink: /institucional//
         <li>Treino direcionado ao seu perfil</li>
         <li>Suporte profissional</li>
       </ul>
-      <a class="btn" href="{{ site.matricula-url }}">Matricule-se agora</a>
+      <a class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
     </div>
     <div class="col-md-5">
       <iframe width="95%" height="310"
