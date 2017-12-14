@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BG Fitness Maceió - Institucional
-permalink: /institucional//
+permalink: /institucional
 ---
 <section class="inst-principal">
   <div id="chamada">

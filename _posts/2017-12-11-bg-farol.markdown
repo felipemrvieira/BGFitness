@@ -2,11 +2,13 @@
 layout: post
 title:  "Unidade BG Farol"
 date:   2017-12-11 17:36:51 -0300
-categories: Farol
+categories: novidades
+permalink: /blog/bgfarol
 author: "BG Fitness"
 avatar: "avatar.png"
 background: "bg1.jpeg"
 resumo: "Essa publicação mostra um pouco da nossa nova unidade BG Farol. Confira a publicação!"
+
 ---
 <div class="col-md-5">
   <iframe width="95%" height="310"
