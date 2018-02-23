@@ -27,7 +27,7 @@ facebook: "https://www.facebook.com/bgfitnessmaceio/"
 
 # Build settings
 markdown: kramdown
-permalink: /:title
+permalink: /blog/:title.html
 
 plugins:
   - jekyll-feed

@@ -14,7 +14,7 @@ permalink: /atendimento/
 <section id="form">
   <h2>Envie-nos uma mensagem</h2>
   <div class="col-md-12">
-    <form action="https://formspree.io/felipemrvieira@gmail.com" method="post">
+    <form action="/email.php" method="post">
       <div class="form-group col-md-12">
         <input type="text" class="form-control input-lg" id="nome" name="nome" placeholder="Nome:">
       </div>
@@ -25,7 +25,7 @@ permalink: /atendimento/
         <input type="text" class="form-control input-lg" id="telefone" name="telefone" placeholder="Telefone:">
       </div>
       <div class="form-group col-md-12">
-        <textarea class="form-control input-lg" rows="5" id="mensagem" name="mansagem" placeholder="Mensagem:"></textarea>
+        <textarea class="form-control input-lg" rows="5" id="mensagem" name="mensagem" placeholder="Mensagem:"></textarea>
       </div>
       <div id="botao" class="col-md-12">
         <button type="submit" class="btn btn-primary">Enviar</button>
