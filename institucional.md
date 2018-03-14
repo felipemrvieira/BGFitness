@@ -76,24 +76,32 @@ permalink: /institucional
             <tr>
               <td>6:00</td>
               <td>BG Spinning</td>
-              <td>FitDance</td>
+              <td>Zumba</td>
               <td>BG Spinning</td>
-              <td>FitDance</td>
+              <td>Zumba</td>
               <td>BG Spinning</td>
             </tr>
             <tr>
               <td>7:00</td>
-              <td>Ritmos Latinos</td>
+              <td>FitDance</td>
               <td>Muay Thai</td>
-              <td>Ritmos Latinos</td>
+              <td>FitDance</td>
               <td>Muay Thai</td>
-              <td>BG Abdominal</td>
+              <td>FitDance</td>
             </tr>
             <tr>
               <td>8:00</td>
-              <td>BG Funcional</td>
-              <td>BG Running</td>
               <td>BG Abdominal</td>
+              <td>BG Funcional</td>
+              <td>BG Abdominal</td>
+              <td>BG Funcional</td>
+              <td>BG GAP</td>
+            </tr>
+            <tr>
+              <td>12:00</td>
+              <td>BG Funcional</td>
+              <td>BG Spinning</td>
+              <td>BG Alongamento</td>
               <td>BG Spinning</td>
               <td>BG Funcional</td>
             </tr>
@@ -101,7 +109,7 @@ permalink: /institucional
               <td>16:00</td>
               <td>BG Funcional</td>
               <td>BG Abdominal</td>
-              <td>BG Resistência</td>
+              <td>BG Pump</td>
               <td>BG Abdominal</td>
               <td>BG Funcional</td>
             </tr>
@@ -109,16 +117,16 @@ permalink: /institucional
               <td>17:00</td>
               <td>Zumba</td>
               <td>BG Funcional</td>
-              <td>Zumba</td>
+              <td>BG Glúteo</td>
               <td>Bg Funcional</td>
-              <td>BG Abdominal</td>
+              <td>BG Pump</td>
             </tr>
             <tr>
               <td>18:00</td>
               <td>Muay Thai</td>
-              <td>FitDance</td>
+              <td>Zumba</td>
               <td>Muay Thai</td>
-              <td>FitDance</td>
+              <td>Zumba</td>
               <td>Muay Thai</td>
             </tr>
             <tr>
@@ -127,7 +135,7 @@ permalink: /institucional
               <td>BG Spinning</td>
               <td>FitDance</td>
               <td>BG Spinning</td>
-              <td>BG Funcional</td>
+              <td>FitDance</td>
             </tr>
             <tr>
               <td>20:00</td>
@@ -135,15 +143,15 @@ permalink: /institucional
               <td>Ritmos Latinos</td>
               <td>BG Abdominal</td>
               <td>Ritmos Latinos</td>
-              <td>BG Abdominal</td>
+              <td></td>
             </tr>
             <tr>
               <td>20:30</td>
-              <td>BG Step</td>
+              <td>BG Step/Jump</td>
               <td>BG Funcional</td>
-              <td>BG Jump</td>
+              <td>Zumba</td>
               <td>BG Funcional</td>
-              <td>-</td>
+              <td>BG Pump</td>
             </tr>
 
           </tbody>
