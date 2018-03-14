@@ -143,7 +143,7 @@ permalink: /institucional
               <td>Ritmos Latinos</td>
               <td>BG Abdominal</td>
               <td>Ritmos Latinos</td>
-              <td></td>
+              <td>BG Funcional</td>
             </tr>
             <tr>
               <td>20:30</td>
@@ -210,77 +210,84 @@ permalink: /institucional
           <tbody>
             <tr>
               <td>6:00</td>
+              <td>BG Funcional</td>
               <td>BG Spinning</td>
-              <td>FitDance</td>
+              <td>BG Funciona</td>
               <td>BG Spinning</td>
-              <td>FitDance</td>
-              <td>BG Spinning</td>
+              <td>BG Funcional</td>
             </tr>
             <tr>
               <td>7:00</td>
-              <td>Ritmos Latinos</td>
-              <td>Muay Thai</td>
-              <td>Ritmos Latinos</td>
-              <td>Muay Thai</td>
+              <td>BG Abdominal</td>
+              <td>Cross Funcional</td>
+              <td>BG Abdominal</td>
+              <td>Cross Funcional</td>
               <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>8:00</td>
-              <td>BG Funcional</td>
+              <td>BG Resistêcia</td>
+              <td>FitDance</td>
+              <td>BG Resistêcia</td>
+              <td>FitDance</td>
+              <td>BG Resistêcia</td>
+            </tr>
+            <tr>
+              <td>9:00</td>
               <td>BG Running</td>
               <td>BG Abdominal</td>
-              <td>BG Spinning</td>
-              <td>BG Funcional</td>
+              <td>BG Running</td>
+              <td>BG Abdominal</td>
+              <td>BG Running</td>
             </tr>
             <tr>
               <td>16:00</td>
-              <td>BG Funcional</td>
-              <td>BG Abdominal</td>
-              <td>BG Resistência</td>
-              <td>BG Abdominal</td>
-              <td>BG Funcional</td>
+              <td>BG Glúteo</td>
+              <td>Extreme Mix</td>
+              <td>BG Glúteo</td>
+              <td>Extreme Mix</td>
+              <td>Zumba</td>
             </tr>
             <tr>
               <td>17:00</td>
-              <td>Zumba</td>
-              <td>BG Funcional</td>
-              <td>Zumba</td>
-              <td>Bg Funcional</td>
+              <td>Muay Thai</td>
+              <td>-</td>
+              <td>Muay Thai</td>
               <td>BG Abdominal</td>
+              <td>Muay Thai</td>
             </tr>
             <tr>
               <td>18:00</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
-              <td>Muay Thai</td>
+              <td>BG Spinning</td>
+              <td>BG Abdominal</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional + Resistência</td>
+              <td>BG Spinning</td>
             </tr>
             <tr>
               <td>19:00</td>
+              <td>BG Running</td>
+              <td>BG Running</td>
+              <td>BG Running</td>
+              <td>BG Running</td>
+              <td>BG Running</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
               <td>FitDance</td>
-              <td>BG Spinning</td>
               <td>FitDance</td>
-              <td>BG Spinning</td>
-              <td>BG Funcional</td>
             </tr>
             <tr>
               <td>20:00</td>
-              <td>BG Abdominal</td>
               <td>Ritmos Latinos</td>
-              <td>BG Abdominal</td>
+              <td>Extreme Mix</td>
               <td>Ritmos Latinos</td>
-              <td>BG Abdominal</td>
-            </tr>
-            <tr>
-              <td>20:30</td>
-              <td>BG Step</td>
-              <td>BG Funcional</td>
-              <td>BG Jump</td>
-              <td>BG Funcional</td>
+              <td>Extreme Mix</td>
               <td>-</td>
             </tr>
-
           </tbody>
         </table>
         <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.

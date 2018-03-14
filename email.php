@@ -11,7 +11,7 @@ $txt = "Dados da mensagem: nome: ".$nome. "\r\n" .
 "Telefone: ".$telefone. "\r\n" .
 "Mensagem: ".$mensagem;
 
-$headers = "From: contato@bgfitness.com.br" . "\r\n" .
+$headers = "From: ".$email . "\r\n" .
 "CC: gerencia@bgfitness.com.br";
 
 mail($to,$subject,$txt,$headers);
