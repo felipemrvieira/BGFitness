@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BG Fitness Maceió - Institucional
-permalink: /institucional
+permalink: /institucional/
 ---
 <section class="inst-principal">
   <div id="chamada">
@@ -124,9 +124,9 @@ permalink: /institucional
             <tr>
               <td>18:00</td>
               <td>Muay Thai</td>
-              <td>Zumba</td>
+              <td>BG Ritmos</td>
               <td>Muay Thai</td>
-              <td>Zumba</td>
+              <td>BG Ritmos</td>
               <td>Muay Thai</td>
             </tr>
             <tr>
@@ -140,25 +140,24 @@ permalink: /institucional
             <tr>
               <td>20:00</td>
               <td>BG Abdominal</td>
-              <td>Ritmos Latinos</td>
+              <td>BG Alongamento</td>
               <td>BG Abdominal</td>
-              <td>Ritmos Latinos</td>
-              <td>BG Funcional</td>
+              <td>BG Alongamento</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>20:30</td>
+              <td>BG Funcional</td>
               <td>BG Step/Jump</td>
               <td>BG Funcional</td>
-              <td>Zumba</td>
+              <td>BG Gluteo</td>
               <td>BG Funcional</td>
-              <td>BG Pump</td>
             </tr>
-
           </tbody>
         </table>
         <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
           Não existe custo adicional para participar de nenhuma modalidade.
-          Nosso cronograma de aulas pode ser atualizado e/ou alterado visando atender as maiores demandas.</p>
+          Nosso cronograma de aulas pode ser atualizado adicionando ou removendo modalidades visando atender as maiores demandas.</p>
       </div>
     </div>
   </div>
@@ -212,7 +211,7 @@ permalink: /institucional
               <td>6:00</td>
               <td>BG Funcional</td>
               <td>BG Spinning</td>
-              <td>BG Funciona</td>
+              <td>BG Funcional</td>
               <td>BG Spinning</td>
               <td>BG Funcional</td>
             </tr>
@@ -226,19 +225,19 @@ permalink: /institucional
             </tr>
             <tr>
               <td>8:00</td>
-              <td>BG Resistêcia</td>
+              <td>BG Resistência</td>
               <td>FitDance</td>
-              <td>BG Resistêcia</td>
+              <td>BG Resistência</td>
               <td>FitDance</td>
-              <td>BG Resistêcia</td>
+              <td>BG Resistência</td>
             </tr>
             <tr>
               <td>9:00</td>
-              <td>BG Running</td>
               <td>BG Abdominal</td>
-              <td>BG Running</td>
               <td>BG Abdominal</td>
-              <td>BG Running</td>
+              <td>BG Abdominal</td>
+              <td>BG Abdominal</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>16:00</td>
@@ -269,17 +268,17 @@ permalink: /institucional
               <td>BG Running</td>
               <td>BG Running</td>
               <td>BG Running</td>
-              <td>BG Running</td>
-              <td>BG Running</td>
+              <td>FitDance</td>
+              <td>FitDance</td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td>19:00</td>
               <td>-</td>
               <td>-</td>
               <td>-</td>
               <td>FitDance</td>
               <td>FitDance</td>
-            </tr>
+            </tr> -->
             <tr>
               <td>20:00</td>
               <td>Ritmos Latinos</td>
@@ -292,7 +291,7 @@ permalink: /institucional
         </table>
         <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
           Não existe custo adicional para participar de nenhuma modalidade.
-          Nosso cronograma de aulas pode ser atualizado e/ou alterado visando atender as maiores demandas.</p>
+          Nosso cronograma de aulas pode ser atualizado adicionando ou removendo modalidades visando atender as maiores demandas.</p>
       </div>
     </div>
   </div>

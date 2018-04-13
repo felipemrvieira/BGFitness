@@ -70,20 +70,17 @@ permalink: /
         <a href="{{ site.matricula-url }}" target="_blank"><p class="contrate">Contrate Agora</p></a>
       </div>
       <div class="col-md-2">
-
       </div>
       <div id="platinum" class="col-md-5 plano">
         <p>Plano <strong>BG Platinum</strong></p>
         <p class="sub-plano">Musculação, Acesso às duas unidades, Acesso à todas as modalidades:</p>
         <ul>
-          <li>BG Spinning</li>
-          <li>BG Running</li>
-          <li>BG Funcional</li>
-          <li>FitDance</li>
-          <li>Zumba</li>
+          <li>Corrida indoor</li>
+          <li>Funcional</li>
+          <li>Danças</li>
           <li>Muay Thai</li>
           <li>e mais!</li>
-          <li><a href="#">Confira todas as modalidades aqui!</a></li>
+          <li><a href="/institucional">Confira todas as modalidades aqui!</a></li>
         </ul>
         <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow">
           <strong class="preco">R$ 99,90</strong>
