@@ -3,7 +3,7 @@ layout: default
 title: BG Fitness Maceió
 permalink: /
 ---
-<section class="principal">
+<section id="sec1" class="principal" data-type="background" data-speed="5">
   <div id="chamada">
     <h1>Dê o primeiro passo e venha fazer a diferença</h1>
     <p>Comece a treinar hoje mesmo!</p>
@@ -25,7 +25,7 @@ permalink: /
 
   </div>
 </section>
-<section id="como-funciona">
+<section id="como-funciona" data-type="background" data-speed="5">
   <div class="conteudo">
     <header class="col-md-12">
       <p class="como-funciona-titulo">Saiba como funciona</p>
@@ -132,3 +132,17 @@ permalink: /
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyBCzwa-1utZ-8mBL_Zae-2wzHQlRlMJmkA"></script>
+
+<script>
+  function parallax() {
+    var $slider = document.getElementById('sec1');
+    var yPos = window.pageYOffset / $slider.dataset.speed;
+    yPos = -yPos;
+    var coords = '0% '+ yPos + 'px';
+    $slider.style.backgroundPosition = coords;
+  }
+    
+    window.addEventListener('scroll', function(){
+        parallax();	
+    });
+</script>

@@ -3,8 +3,8 @@ layout: default
 title: BG Fitness Maceió - Institucional
 permalink: /institucional/
 ---
-<section class="inst-principal">
-  <div id="chamada">
+<section id="sec1" class="inst-principal" data-type="background" data-speed="5">
+  <div id="chamada" >
     <div class="col-md-7">
       <h2>Conheça nossas unidades</h2>
       <p>Além de equipamento de ponta e infraestrutura de qualidade, aqui você tem o suporte profissional que precisa.
@@ -351,3 +351,17 @@ permalink: /institucional/
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyBCzwa-1utZ-8mBL_Zae-2wzHQlRlMJmkA"></script>
+
+<script>
+  function parallax() {
+    var $slider = document.getElementById('sec1');
+    var yPos = window.pageYOffset / $slider.dataset.speed;
+    yPos = -yPos;
+    var coords = '0% '+ yPos + 'px';
+    $slider.style.backgroundPosition = coords;
+  }
+    
+    window.addEventListener('scroll', function(){
+        parallax();	
+    });
+</script>

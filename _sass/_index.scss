@@ -72,12 +72,12 @@
 .explicacao{
   background-color: #e1e1e3;
   @include borda-lateral();
-  min-height: 100vh;
+  min-height: 70vh;
   #atletas{
     min-height: inherit;
     background-image: url("../img/atletas.png");
     background-repeat: no-repeat;
-    background-size:80%;
+    background-size:90%;
     background-position: bottom left;
   }
   #container-explicacao{
