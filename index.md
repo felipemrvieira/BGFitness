@@ -7,7 +7,7 @@ permalink: /
   <div id="chamada">
     <h1>Dê o primeiro passo e venha fazer a diferença</h1>
     <p>Comece a treinar hoje mesmo!</p>
-    <a class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
+    <a id="btn-principal" class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
   </div>
 
 </section>
@@ -146,3 +146,5 @@ permalink: /
         parallax();	
     });
 </script>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
