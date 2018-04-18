@@ -1,4 +1,14 @@
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36137167-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-36137167-5');
+  </script>
+
   <!--
   ***********************************
   * ################################## MICROFORMATS
@@ -19,11 +29,18 @@
   -->
 
   <meta name="title" content="Academia BG Fitness Maceió" />
+  <meta name="description" content="Com unidades no Farol e Jatiúca, a academia BG Fitness Maceió te oferece maquinário 
+    exclusivo, suporte profissional para seus treinos, 
+    diversas modalidades gratuitas e um preço que cabe no seu bolso!">
+  <meta name="keywords" content="Musculação, Academia, Academia Maceió, Academia Jatiúca, Academia Farol, Academia Gruta, 
+    Fitness, BG Fitness, BG Fitness Maceió,BG Farol, BG Praia, BG, Maceió, Matricule-se, Corrida, Danças, Funcional, Muay, Thai, 
+    Musculação,Plano, Planos, Gold, Platinum, indoor, av.fernandes, unidade" />
+
   <meta name="robots" content="index,follow">
   <meta name="author" content="StarFish - www.starfishbr.com" />
   <meta name="copyright" content="" />
-  <meta name="description" content="Com unidades no Farol e Jatiúca, a academia BG Fitness Maceió te oferece maquinário exclusivo, suporte profissional para seus treinos, diversas modalidades gratuitas e um preço que cabe no seu bolso!" />
-  <meta name="keywords" content="Musculação, Academia, Academia Maceió, Academia Jatiúca, Academia Farol, Academia Gruta, Fitness, BG Fitness, BG Fitness Maceió" />
+
+  
   <meta name="classification" content="" />
 
   <!--
@@ -48,20 +65,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/lightbox.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/lightbox.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <script src="{{ "/assets/js/jquery-3.2.1.min.js" | relative_url }}"></script>
-  <script src="{{ "/assets/js/lightbox.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/lightbox.min.js" | relative_url }}"></script>
 
-
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
 </head>
