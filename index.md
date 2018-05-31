@@ -147,4 +147,4 @@ permalink: /
     });
 </script>
 
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script async src="/assets/js/scrollreveal.min.js"></script>
