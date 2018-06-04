@@ -79,7 +79,7 @@ permalink: /institucional/
               <td>BG Abdominal</td>
               <td>BG Spinning</td>
               <td>BG Abdominal</td>
-              <td>BG Spinning</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>7:00</td>
@@ -155,11 +155,11 @@ permalink: /institucional/
             </tr>
             <tr>
               <td>20:30</td>
-              <td>BG Funcional</td>
+              <td>BG Cross Funcional</td>
               <td>BG Step/Jump</td>
-              <td>BG Funcional</td>
+              <td>BG Cross Funcional</td>
               <td>BG Glúteo</td>
-              <td>BG Funcional</td>
+              <td>BG Cross Funcional</td>
             </tr>
           </tbody>
         </table>
@@ -229,7 +229,7 @@ permalink: /institucional/
               <td>Cross Funcional</td>
               <td>BG Alongamnt. e Mobilid.</td>
               <td>Cross Funcional</td>
-              <td>BG Abdominal</td>
+              <td>BG Alongamnt. e Mobilid.</td>
             </tr>
             <tr>
               <td>8:00</td>
@@ -276,17 +276,17 @@ permalink: /institucional/
               <td>BG Running</td>
               <td>BG Running</td>
               <td>BG Running</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>FitDance</td>
+              <td>BG Spinning</td>
+              <td>FitDance</td>
               <td>BG Spinning</td>
               <td>FitDance</td>
             </tr>
-            <!-- <tr>
-              <td>19:00</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>FitDance</td>
-              <td>FitDance</td>
-            </tr> -->
             <tr>
               <td>20:00</td>
               <td>Ritmos Latinos</td>
