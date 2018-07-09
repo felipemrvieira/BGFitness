@@ -76,8 +76,16 @@ permalink: /institucional/
             <tr>
               <td>6:00</td>
               <td>BG Spinning</td>
-              <td>BG Abdominal</td>
+              <td>-</td>
               <td>BG Spinning</td>
+              <td>-</td>
+              <td>BG Spinning</td>
+            </tr>
+            <tr>
+              <td>6:30</td>
+              <td>-</td>
+              <td>BG Abdominal</td>
+              <td>-</td>
               <td>BG Abdominal</td>
               <td>-</td>
             </tr>
@@ -101,25 +109,17 @@ permalink: /institucional/
               <td>12:00</td>
               <td>BG Funcional</td>
               <td>BG Spinning</td>
-              <td>BG Alongamento</td>
+              <td>BG Abdominal</td>
               <td>BG Spinning</td>
               <td>BG Funcional</td>
             </tr>
             <tr>
-              <td>16:00</td>
+              <td>17:30</td>
+              <td>BG Gap</td>
               <td>BG Funcional</td>
-              <td>BG Abdominal</td>
-              <td>BG Pump</td>
-              <td>BG Abdominal</td>
-              <td>BG Funcional</td>
-            </tr>
-            <tr>
-              <td>17:00</td>
-              <td>Zumba</td>
-              <td>BG Funcional</td>
-              <td>BG Glúteo</td>
+              <td>BG Step/Jump</td>
               <td>Bg Funcional</td>
-              <td>BG Pump</td>
+              <td>BG Glúteo</td>
             </tr>
             <tr>
               <td>18:00</td>
@@ -140,25 +140,25 @@ permalink: /institucional/
             <tr>
               <td>19:30</td>
               <td>BG Running</td>
-              <td>-</td>
+              <td>BG Alongamento</td>
               <td>BG Running</td>
-              <td>-</td>
+              <td>BG Alongamento</td>
               <td>-</td>
             </tr>
             <tr>
               <td>20:00</td>
               <td>BG Abdominal</td>
-              <td>BG Alongamento</td>
-              <td>BG Abdominal</td>
-              <td>BG Alongamento</td>
+              <td>BG Strong</td>
+              <td>BG Gap</td>
+              <td>BG Strong</td>
               <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>20:30</td>
               <td>BG Cross Funcional</td>
-              <td>BG Step/Jump</td>
+              <td>-</td>
               <td>BG Cross Funcional</td>
-              <td>BG Glúteo</td>
+              <td>-</td>
               <td>BG Cross Funcional</td>
             </tr>
           </tbody>
