@@ -229,7 +229,7 @@ permalink: /institucional/
               <td>Cross Funcional</td>
               <td>BG Alongamnt. e Mobilid.</td>
               <td>Cross Funcional</td>
-              <td>BG Alongamnt. e Mobilid.</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>8:00</td>
@@ -242,10 +242,10 @@ permalink: /institucional/
             <tr>
               <td>9:00</td>
               <td>BG Abdominal</td>
+              <td>-</td>
               <td>BG Abdominal</td>
               <td>BG Abdominal</td>
-              <td>BG Abdominal</td>
-              <td>BG Abdominal</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>16:00</td>
@@ -260,7 +260,7 @@ permalink: /institucional/
               <td>Muay Thai</td>
               <td>BG Abdominal</td>
               <td>Muay Thai</td>
-              <td>BG Abdominal</td>
+              <td>Alongamento</td>
               <td>Muay Thai</td>
             </tr>
             <tr>
