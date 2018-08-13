@@ -101,7 +101,7 @@ permalink: /institucional/
               <td>8:00</td>
               <td>BG Step/Jump</td>
               <td>BG Funcional</td>
-              <td>BG Glúteo</td>
+              <td>BG Step/Jump</td>
               <td>BG Funcional</td>
               <td>BG GAP</td>
             </tr>
@@ -117,9 +117,9 @@ permalink: /institucional/
               <td>17:30</td>
               <td>BG Gap</td>
               <td>BG Funcional</td>
-              <td>BG Step/Jump</td>
+              <td>BG Strong</td>
               <td>Bg Funcional</td>
-              <td>BG Glúteo</td>
+              <td>BG Gap</td>
             </tr>
             <tr>
               <td>18:00</td>
@@ -149,7 +149,7 @@ permalink: /institucional/
               <td>20:00</td>
               <td>BG Abdominal</td>
               <td>BG Strong</td>
-              <td>BG Gap</td>
+              <td>BG Step/Jump</td>
               <td>BG Strong</td>
               <td>BG Abdominal</td>
             </tr>
@@ -225,11 +225,11 @@ permalink: /institucional/
             </tr>
             <tr>
               <td>7:00</td>
-              <td>BG Alongamnt. e Mobilid.</td>
-              <td>Cross Funcional</td>
-              <td>BG Alongamnt. e Mobilid.</td>
-              <td>Cross Funcional</td>
-              <td>BG Abdominal</td>
+              <td>BG Alongamento e Mobil.</td>
+              <td>BG GAP</td>
+              <td>BG Alongamento e Mobil.</td>
+              <td>BG GAP</td>
+              <td>BG Alongamento e Mobil.</td>
             </tr>
             <tr>
               <td>8:00</td>
@@ -242,33 +242,33 @@ permalink: /institucional/
             <tr>
               <td>9:00</td>
               <td>BG Abdominal</td>
-              <td>-</td>
+              <td>BG Alongamento e Mobil.</td>
               <td>BG Abdominal</td>
+              <td>BG Alongamento e Mobil.</td>
               <td>BG Abdominal</td>
-              <td>-</td>
             </tr>
             <tr>
               <td>16:00</td>
-              <td>BG Glúteo</td>
+              <td>BG GAP</td>
               <td>Extreme Mix</td>
-              <td>BG Glúteo</td>
+              <td>BG GAP</td>
               <td>Extreme Mix</td>
               <td>Zumba</td>
             </tr>
             <tr>
               <td>17:00</td>
               <td>Muay Thai</td>
-              <td>BG Abdominal</td>
+              <td>BG Alongamento</td>
               <td>Muay Thai</td>
-              <td>Alongamento</td>
+              <td>BG Abdominal</td>
               <td>Muay Thai</td>
             </tr>
             <tr>
               <td>18:00</td>
               <td>BG Spinning</td>
-              <td>BG Funcional + Resist.</td>
+              <td>BG Funcional</td>
               <td>BG Spinning</td>
-              <td>BG Funcional + Resist.</td>
+              <td>BG Resistência</td>
               <td>BG Spinning</td>
             </tr>
             <tr>
@@ -289,10 +289,10 @@ permalink: /institucional/
             </tr>
             <tr>
               <td>20:00</td>
-              <td>Ritmos Latinos</td>
-              <td>Extreme Mix</td>
-              <td>Ritmos Latinos</td>
-              <td>FitDance</td>
+              <td>Zumba</td>
+              <td>BG Strong</td>
+              <td>Zumba</td>
+              <td>BG Strong</td>
               <td>-</td>
             </tr>
           </tbody>
