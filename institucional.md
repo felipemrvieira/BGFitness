@@ -185,7 +185,7 @@ permalink: /institucional/
               <td>-</td>
               <td>BG Cross Funcional</td>
             </tr>
-          </tbody>
+          </tbody> 
         </table>
         <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
           Não existe custo adicional para participar de nenhuma modalidade.
