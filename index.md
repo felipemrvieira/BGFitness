@@ -83,7 +83,7 @@ permalink: /
           <li><a href="/institucional">Confira todas as modalidades aqui!</a></li>
         </ul>
         <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow">
-          <strong class="preco">R$ 99,90</strong>
+          <strong class="preco">R$ 109,90</strong>
         </a>
         <a href="{{ site.matricula-url }}" target="_blank"><p class="contrate">Contrate Agora</p></a>
 
