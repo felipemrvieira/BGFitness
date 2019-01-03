@@ -140,9 +140,9 @@ permalink: /institucional/
              <tr>
               <td>18:30</td>
               <td>BG Along. e Mobil.</td>
+              <td>-</td>
               <td>BG Spinning</td>
-              <td>BG Along. e Mobil.</td>
-              <td>BG Spinning</td>
+              <td>-</td>
               <td>-</td>
             </tr>
             <tr>
@@ -150,23 +150,23 @@ permalink: /institucional/
               <td>FitDance</td>
               <td>Strong By Zumba</td>
               <td>FitDance</td>
-              <td>Strong By Zumba</td>
+              <td>BG Zumba</td>
               <td>FitDance</td>
             </tr>
             <tr>
               <td>20:00</td>
-              <td>BG Running</td>
+              <td>-</td>
               <td>BG Abdominal</td>
-              <td>BG Running</td>
-              <td>BG Glúteo</td>
+              <td>-</td>
               <td>BG Abdominal</td>
+              <td>BG GAP</td>
             </tr>
             <tr>
               <td>20:30</td>
               <td>BG Cross Funcional</td>
               <td>BG Step/Jump</td>
               <td>BG Cross Funcional</td>
-              <td>-</td>
+              <td>BG Step/Jump</td>
               <td>BG Cross Funcional</td>
             </tr>
           </tbody> 
