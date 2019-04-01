@@ -122,11 +122,10 @@
 
   <link rel="stylesheet" href="/assets/css/lightbox.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/desafio/">
-  <link rel="alternate" type="application/rss+xml" title="BG Fitness Maceió" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Academia BG Fitness Maceió" href="/feed.xml">
 
-  <script async src="/assets/js/jquery-3.2.1.min.js"></script>
-  <script async src="/assets/js/lightbox.min.js"></script>
+  <script src="/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="/assets/js/lightbox.min.js"></script>
 
 </head>
 
@@ -137,7 +136,7 @@
   <ul id="nav-mobile">
     <li class="menu-item"><a href="/">Início</a></li>
     <li class="menu-item"><a href="/institucional">Conheça</a></li>
-    <li class="menu-item"><a href="/BG_MATRICULA" target="_blank">Matricule-se</a></li>
+    <li class="menu-item"><a href="/BG_MATRICULA" target="_blank" rel="noopener">Matricule-se</a></li>
     <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
     <li class="menu-item"><a href="/blog">Blog</a></li>
     <li id="menu-icon" class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#x2715;</a></li>
@@ -169,14 +168,14 @@
          -->
         <li class="menu-item"><a href="/">Início</a></li>
         <li class="menu-item"><a href="/institucional">Conheça</a></li>
-        <li class="menu-item"><a href="/BG_MATRICULA" target="_blank">Matricule-se</a></li>
+        <li class="menu-item"><a href="/BG_MATRICULA" target="_blank" rel="noopener">Matricule-se</a></li>
         <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
         <li class="menu-item"><a href="/blog">Blog</a></li>
         <li class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#9776;</a></li>
       </ul>
       <ul id="nav-social">
-        <li><a href="https://www.instagram.com/bg.fitness/" target="_blank"><img src="/assets/img/icon-social-ig.png" alt="instagram" ></a></li>
-        <li><a href="https://www.facebook.com/bgfitnessmaceio/" target="_blank"><img src="/assets/img/icon-social-fb.png" alt="facebook" ></a></li>
+        <li><a href="https://www.instagram.com/bg.fitness/" target="_blank" rel="noopener"><img src="/assets/img/icon-social-ig.png" alt="instagram" ></a></li>
+        <li><a href="https://www.facebook.com/bgfitnessmaceio/" target="_blank" rel="noopener"><img src="/assets/img/icon-social-fb.png" alt="facebook" ></a></li>
       </ul>
     </div>
 
@@ -299,8 +298,8 @@ function abreMenu(){
       <p>Informações: (82) 99106-3360</p>
     </div>
     <ul id="nav-social">
-      <li><a href="https://www.instagram.com/bg.fitness/" target="_blank"><img src="/assets/img/icon-social-ig.png" alt="instagram"></a></li>
-      <li><a href="https://www.facebook.com/bgfitnessmaceio/" target="_blank"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
+      <li><a href="https://www.instagram.com/bg.fitness/" target="_blank" rel="noopener"><img src="/assets/img/icon-social-ig.png" alt="instagram"></a></li>
+      <li><a href="https://www.facebook.com/bgfitnessmaceio/" target="_blank" rel="noopener"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
     </ul>
     <div id="copyright" class="col-md-12">
       <p>BG Fitness <span>© 2018 - Todos os direitos reservados.</span></p>
@@ -333,7 +332,7 @@ function abreMenu(){
       <div id="matricular" class="col-md-5">
         <div class="col-md-12">
           <h2 id="titulo-matricular">Comece já</h2>
-          <a href="/BG_MATRICULA" rel="nofollow" target="_blank">
+          <a href="/BG_MATRICULA" target="_blank" rel="noopener nofollow">
             <strong id="quero-matricular">Quero me matricular</strong>
           </a>
         </div>
@@ -391,14 +390,15 @@ function abreMenu(){
   </div>
 
 </footer>
-<script>
-    window.sr = ScrollReveal({ reset: true });
-    sr.reveal('#quero-matricular',{ duration: 1500 });
-    sr.reveal('#btn-principal',{ duration: 1500 });
+<script src="/assets/js/scrollreveal.min.js"></script>
+
+<script>  
+  window.sr = ScrollReveal({ reset: true });
+  sr.reveal('#quero-matricular',{ duration: 1500 });
+  sr.reveal('#btn-principal',{ duration: 1500 });
   sr.reveal('#gold',{ duration: 1500 });
   sr.reveal('#platinum',{ duration: 1500 });
-    
-  </script>
+</script>
 
   </body>
 

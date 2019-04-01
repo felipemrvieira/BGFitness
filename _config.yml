@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BG Fitness Maceió
+title: Academia BG Fitness Maceió
 email: contato@bgfitness.com
 description: "Com unidades no Farol e Jatiúca,
 a academia BG Fitness Maceió te oferece maquinário exclusivo, suporte profissional para seus treinos,

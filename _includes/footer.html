@@ -13,8 +13,8 @@
       <p>Informações: (82) 99106-3360</p>
     </div>
     <ul id="nav-social">
-      <li><a href="{{site.instagram}}" target="_blank"><img src="/assets/img/icon-social-ig.png" alt="instagram"></a></li>
-      <li><a href="{{site.facebook}}" target="_blank"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
+      <li><a href="{{site.instagram}}" target="_blank" rel="noopener"><img src="/assets/img/icon-social-ig.png" alt="instagram"></a></li>
+      <li><a href="{{site.facebook}}" target="_blank" rel="noopener"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
     </ul>
     <div id="copyright" class="col-md-12">
       <p>BG Fitness <span>© 2018 - Todos os direitos reservados.</span></p>
@@ -47,7 +47,7 @@
       <div id="matricular" class="col-md-5">
         <div class="col-md-12">
           <h2 id="titulo-matricular">Comece já</h2>
-          <a href="{{ site.matricula-url }}" rel="nofollow" target="_blank">
+          <a href="{{ site.matricula-url }}" target="_blank" rel="noopener nofollow">
             <strong id="quero-matricular">Quero me matricular</strong>
           </a>
         </div>
@@ -102,11 +102,12 @@
   </div>
 
 </footer>
-<script>
-    window.sr = ScrollReveal({ reset: true });
-    sr.reveal('#quero-matricular',{ duration: 1500 });
-    sr.reveal('#btn-principal',{ duration: 1500 });
+<script src="/assets/js/scrollreveal.min.js"></script>
+
+<script>  
+  window.sr = ScrollReveal({ reset: true });
+  sr.reveal('#quero-matricular',{ duration: 1500 });
+  sr.reveal('#btn-principal',{ duration: 1500 });
   sr.reveal('#gold',{ duration: 1500 });
   sr.reveal('#platinum',{ duration: 1500 });
-    
-  </script>
+</script>

@@ -2,7 +2,7 @@
 .principal{
   min-height: 100vh;
   @include borda-lateral();
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -75,10 +75,10 @@
   min-height: 70vh;
   #atletas{
     min-height: inherit;
-    background-image: url("../img/atletas.png");
+    background-image: url("../img/thai.png");
     background-repeat: no-repeat;
-    background-size:90%;
-    background-position: bottom left;
+    background-size: 60%;
+    background-position: bottom center;
   }
   #container-explicacao{
     display: flex;
@@ -266,17 +266,17 @@
 
 
 #secao-planos{
-  min-height: 110vh;
+  min-height: 100vh;
   background: url("../img/bg-planos.png") top center repeat-y;
-  padding: 45px;
+  // padding-top: 45px;
   @include borda-lateral();
 
   .conteudo{
     min-height: 100vh;
     width: 100%;
-    background-image: url("../img/mulher-planos.png");
+    background-image: url("../img/para-todos.png");
     background-repeat: no-repeat;
-    background-size:45%;
+    background-size: 43%;
     background-position: bottom center;
     color: $cinza-escuro;
 

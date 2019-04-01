@@ -2,7 +2,7 @@
   <ul id="nav-mobile">
     <li class="menu-item"><a href="/">Início</a></li>
     <li class="menu-item"><a href="/institucional">Conheça</a></li>
-    <li class="menu-item"><a href="{{ site.matricula-url }}" target="_blank">Matricule-se</a></li>
+    <li class="menu-item"><a href="{{ site.matricula-url }}" target="_blank" rel="noopener">Matricule-se</a></li>
     <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
     <li class="menu-item"><a href="/blog">Blog</a></li>
     <li id="menu-icon" class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#x2715;</a></li>
@@ -11,7 +11,7 @@
 <header id="menu-header">
   <nav id="menu" class="container-fluid">
     <div id="logo">
-      <a href="/"><img class="img-responsive"  src="{{ "assets/img/logo.png" | relative_url }}" alt="logo-bg"></a>
+      <a href="/"><img class="img-responsive"  src="{{ 'assets/img/logo.png' | relative_url }}" alt="logo-bg"></a>
     </div>
     <div class="navegacao">
       <ul id="nav-principal">
@@ -20,14 +20,14 @@
         {% endfor%} -->
         <li class="menu-item"><a href="/">Início</a></li>
         <li class="menu-item"><a href="/institucional">Conheça</a></li>
-        <li class="menu-item"><a href="{{ site.matricula-url }}" target="_blank">Matricule-se</a></li>
+        <li class="menu-item"><a href="{{ site.matricula-url }}" target="_blank" rel="noopener">Matricule-se</a></li>
         <li class="menu-item"><a href="/atendimento">Atendimento</a></li>
         <li class="menu-item"><a href="/blog">Blog</a></li>
         <li class="icon-menu"><a href="javascript:void(0);" onclick="abreMenu()">&#9776;</a></li>
       </ul>
       <ul id="nav-social">
-        <li><a href="{{site.instagram}}" target="_blank"><img src="{{ "assets/img/icon-social-ig.png" | relative_url }}" alt="instagram" ></a></li>
-        <li><a href="{{site.facebook  }}" target="_blank"><img src="{{ "assets/img/icon-social-fb.png" | relative_url }}" alt="facebook" ></a></li>
+        <li><a href="{{site.instagram}}" target="_blank" rel="noopener"><img src="{{ 'assets/img/icon-social-ig.png' | relative_url }}" alt="instagram" ></a></li>
+        <li><a href="{{site.facebook  }}" target="_blank" rel="noopener"><img src="{{ 'assets/img/icon-social-fb.png' | relative_url }}" alt="facebook" ></a></li>
       </ul>
     </div>
 

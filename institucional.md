@@ -20,7 +20,7 @@ permalink: /institucional/
         <li>Treino direcionado ao seu perfil</li>
         <li>Suporte profissional</li>
       </ul>
-      <a class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
+      <a class="btn" href="{{ site.matricula-url }}" target="_blank" rel="noopener">Matricule-se agora</a>
     </div>
     <div class="col-md-5">
       <iframe width="95%" height="310"
@@ -79,7 +79,7 @@ permalink: /institucional/
               <td>Cross Funcional</td>
               <td>BG Spinning</td>
               <td>Cross Funcional</td>
-              <td>BG Thai Chi</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>6:30</td>
@@ -103,7 +103,7 @@ permalink: /institucional/
               <td>Strong By Zumba</td>
               <td>BG Funcional</td>
               <td>Strong By Zumba</td>
-              <td>BG Step/Jump</td>
+              <td>BG Gap</td>
             </tr>
             <tr>
               <td>12:30</td>
@@ -159,7 +159,7 @@ permalink: /institucional/
               <td>BG Abdominal</td>
               <td>-</td>
               <td>BG Abdominal</td>
-              <td>BG GAP</td>
+              <td>BG Gap</td>
             </tr>
             <tr>
               <td>20:30</td>

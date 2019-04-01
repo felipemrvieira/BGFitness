@@ -18,9 +18,9 @@ permalink: /
   <div id="container-explicacao" class="col-md-7">
     <div id="elementos-explicacao">
       <h2 id="titulo-explicacao">Academia para todos</h2>
-      <p id="explicacao">Academia com a estrutura que você merece à um preço que cabe no seu bolso.
-         A oportunidade que faltava para você cuidar da saúde e boa forma!</p>
-      <a class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
+      <p id="explicacao">
+        Academia com diversas modalidades de atividades físicas para quem gosta de ficar parado, além de maquinário exclusivo.</p>
+      <a class="btn" href="{{ site.matricula-url }}" target="_blank" rel="noopener">Matricule-se agora</a>
     </div>
 
   </div>
@@ -31,14 +31,14 @@ permalink: /
       <p class="como-funciona-titulo">Saiba como funciona</p>
       <p class="como-funciona-descricao">Aqui você pode desfrutar de equipamentos de ultima geração e exclusivos no estado.
          Tudo isso em um ambiente sofisticado, com vestiários equipados e ambiente climatizado.
-         Você merece tudo isso por um preço justo, com planos a partir de R$ 79,90 mensais*.</p>
+         Você merece tudo isso por um preço justo, com planos a partir de R$ 89,90 mensais*.</p>
     </header>
     <div class="col-md-6">
       <div class="icon">
         <img src="assets/img/icon-arrow.png" alt="matricula">
       </div>
       <p class="como-funciona-titulo">Como faço minha matrícula?</p>
-      <p class="como-funciona-descricao">A matrícula pode ser feita aqui pelo site <a href="{{ site.matricula-url }}" target="_blank">clicando aqui</a> ou no balcão da academia.</p>
+      <p class="como-funciona-descricao">A matrícula pode ser feita aqui pelo site <a href="{{ site.matricula-url }}" target="_blank" rel="noopener">clicando aqui</a> ou no balcão da academia.</p>
     </div>
     <div class="col-md-6">
       <div class="icon">
@@ -61,13 +61,13 @@ permalink: /
         <p class="sub-plano">Musculação e Aeróbicos em horário delimitado:</p>
         <div id="detalhe">
           <p>Horário do plano durante a semana:</p>
-          <p>Segunda à sexta das 09:00 às 15:00</p>
-          <p>Sábado e Domingo horário livre</p>
+          <p>Segunda à quarta das 09:00 às 15:00</p>
+          <p>Quinta à Domingo horário livre</p>
         </div>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow">
-          <strong class="preco">R$ 79,90</strong>
+        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow" rel="noopener">
+          <strong class="preco">R$ 89,90</strong>
         </a>
-        <a href="{{ site.matricula-url }}" target="_blank"><p class="contrate">Contrate Agora</p></a>
+        <a href="{{ site.matricula-url }}" target="_blank" rel="noopener"><p class="contrate">Contrate Agora</p></a>
       </div>
       <div class="col-md-2">
       </div>
@@ -82,10 +82,10 @@ permalink: /
           <li>e mais!</li>
           <li><a href="/institucional">Confira todas as modalidades aqui!</a></li>
         </ul>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow">
+        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow" rel="noopener">
           <strong class="preco">R$ 109,90</strong>
         </a>
-        <a href="{{ site.matricula-url }}" target="_blank"><p class="contrate">Contrate Agora</p></a>
+        <a href="{{ site.matricula-url }}" target="_blank" rel="noopener"><p class="contrate">Contrate Agora</p></a>
 
       </div>
     </div>
@@ -117,20 +117,21 @@ permalink: /
     var map = new google.maps.Map(mapCanvas,mapOptions);
 
     var markerPraia = new google.maps.Marker({
-    position: posicaoBgPraia,
-    icon: "assets/img/pointer.png",
-    animation: google.maps.Animation.BOUNCE
+      position: posicaoBgPraia,
+      icon: "assets/img/pointer.png",
+      animation: google.maps.Animation.BOUNCE
     });
     markerPraia.setMap(map);
 
     var markerFarol = new google.maps.Marker({
-    position: posicaoBgFarol,
-    icon: "assets/img/pointer.png",
-    animation: google.maps.Animation.BOUNCE
+      position: posicaoBgFarol,
+      icon: "assets/img/pointer.png",
+      animation: google.maps.Animation.BOUNCE
     });
     markerFarol.setMap(map);
   }
 </script>
+
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyBCzwa-1utZ-8mBL_Zae-2wzHQlRlMJmkA"></script>
 
 <script>
@@ -147,4 +148,3 @@ permalink: /
     });
 </script>
 
-<script async src="/assets/js/scrollreveal.min.js"></script>
