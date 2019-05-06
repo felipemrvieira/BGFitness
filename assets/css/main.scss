@@ -56,6 +56,11 @@ $tamanho-footer: 90vh;
   src: url("../fonts/RobotoCondensed-Light.ttf");
 }
 
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/Gotham-Black-Regular.ttf");
+}
+
 .btn{
   border-radius: 0;
 }

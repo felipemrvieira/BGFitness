@@ -100,6 +100,16 @@ permalink: /
   </div>
 </section>
 
+<section id="banner-bgbiu">
+  <header class="col-md-12">
+    <div>
+      <p>Benedito Bentes</p>
+      <p>Estamos chegando!</p>
+    </div>
+  </header>
+</section>
+
+
 <script>
   function myMap() {
     var mapCanvas = document.getElementById("mapa");

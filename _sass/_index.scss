@@ -490,3 +490,32 @@
 
   }//mapa
 }//area mapa
+
+#banner-bgbiu{
+  position: fixed;
+  z-index: 11;
+  background-image: url("../img/background-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 0;
+  width: 100%;
+  border-top: 10px solid #e26e08;
+  -webkit-box-shadow: 0px -3px 9px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px -3px 9px 0px rgba(0,0,0,0.43);
+  box-shadow: 0px -3px 9px 0px rgba(0,0,0,0.43);
+  div{
+    padding: 0 30%;
+
+    p{
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.81);
+      text-align: left;
+      font-family: "Gotham-Black";
+      font-size: 3em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+}
