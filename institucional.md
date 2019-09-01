@@ -33,8 +33,159 @@ permalink: /institucional/
 <section id="" class="unidade">
   <div id="descricao-unidade" class="col-md-12">
     <header>
+      <h2>Unidade BG Biu</h2>
+      <p>A mais nova unidade da BG Fitness conta com a qualidade de maquinário e profissionais que você ja conhece a um custo acessível para você que sabe que não precisa pagar caro para ter acesso a uma academia de qualidade. </p><p>Faça seu pré cadastro gratuitamente e garanta <u> TAXA ZERO</u> de matrícula!</p>
+    </header>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTGxHMqr7hyQh2_AzAivpPwDrBkeSP06fylAD_VoXdYHliZw/viewform?embedded=true" width="100%" height="806" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    <!-- <div id="galeria" class="col-md-12">
+      <a href="/assets/img/Farol/bg1.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg1.jpeg" alt="">
+      </a>
+      <a href="/assets/img/Farol/bg2.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg2.jpeg" alt="">
+      </a>
+      <a href="/assets/img/Farol/bg3.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg3.jpeg" alt="">
+      </a>
+      <a href="/assets/img/Farol/bg4.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg4.jpeg" alt="">
+      </a>
+      <a href="/assets/img/Farol/bg5.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg5.jpeg" alt="">
+      </a>
+      <a href="/assets/img/Farol/bg6.jpeg" data-lightbox="bgfarol">
+        <img class="img-thumbnail" src="/assets/img/Farol/bg6.jpeg" alt="">
+      </a>
+    </div> -->
+    <div id="cronograma" class="col-md-12">
+       <h3 class="center">Cronograma de aulas - Unidade BG Biu</h3>
+      <div class="container">
+        <h3>Em breve!</h3>
+        <!-- <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Segunda</th>
+              <th>Terça</th>
+              <th>Quarta</th>
+              <th>Quinta</th>
+              <th>Sexta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>6:00</td>
+              <td>BG Spinning</td>
+              <td>Cross Funcional</td>
+              <td>BG Spinning</td>
+              <td>Cross Funcional</td>
+              <td>BG Spinning</td>
+            </tr>
+            <tr>
+              <td>6:40</td>
+              <td>BG Along. e Mobil.</td>
+              <td> - </td>
+              <td> - </td>
+              <td> - </td>
+              <td>BG Step/jump</td>
+            </tr>
+            <tr>
+              <td>7:00</td>
+              <td>FitDance</td>
+              <td>Muay Thai</td>
+              <td>Cross Funcional</td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+            </tr>
+             <tr>
+              <td>7:00</td>
+              <td> - </td>
+              <td>BG Abdominal</td>
+              <td>BG Ritmos</td>
+              <td>BG Abdominal</td>
+              <td> - </td>
+            </tr>
+            <tr>
+              <td>8:00</td>
+              <td>BG Step/Jump</td>
+              <td>Strong By Zumba</td>
+              <td>Zumba</td>
+              <td>Strong By Zumba</td>
+              <td>BG Gap</td>
+            </tr>
+            <tr>
+              <td>12:20</td>
+              <td>BG Insanity</td>
+              <td>BG Spinning</td>
+              <td>BG Abdominal</td>
+              <td>BG Spinning</td>
+              <td>BG Funcional</td>
+            </tr>
+             <tr>
+              <td>17:30</td>
+              <td>BG Step/jump</td>
+              <td>BG Funcional</td>
+              <td>BG Insanity</td>
+              <td>Bg Funcional</td>
+              <td>BG Gap</td>
+            </tr>
+            <tr>
+              <td>18:00</td>
+              <td>Muay Thai</td>
+              <td>BG Ritmos</td>
+              <td>Muay Thai</td>
+              <td>BG Ritmos</td>
+              <td>Muay Thai</td>
+            </tr>
+             <tr>
+              <td>18:30</td>
+              <td>BG Along. e Mobil.</td>
+              <td>-</td>
+              <td>BG Bike indoor</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>FitDance</td>
+              <td>Strong By Zumba</td>
+              <td>FitDance</td>
+              <td>BG Zumba</td>
+              <td>FitDance</td>
+            </tr>
+            <tr>
+              <td>20:00</td>
+              <td>-</td>
+              <td>BG Abdominal</td>
+              <td>-</td>
+              <td>BG Abdominal</td>
+              <td>BG Gap</td>
+            </tr>
+            <tr>
+              <td>20:30</td>
+              <td>BG Cross Funcional</td>
+              <td>BG Step/Jump</td>
+              <td>BG Cross Funcional</td>
+              <td>BG Step/Jump</td>
+              <td>BG Cross Funcional</td>
+            </tr>
+          </tbody> 
+        </table> -->
+        <!-- <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
+          Não existe custo adicional para participar de nenhuma modalidade.
+          Nosso cronograma de aulas pode ser atualizado adicionando ou removendo modalidades visando atender as maiores demandas.</p> -->
+      </div>
+    </div>
+  </div> 
+  <div id="mapa-biu" class="col-md-12">
+  </div>
+</section>
+
+<section id="" class="unidade">
+  <div id="descricao-unidade" class="col-md-12">
+    <header>
       <h2>Unidade BG Farol</h2>
-      <p>No coração da cidade, a BG Farol é a nossa mais nova unidade e é ideal para você
+      <p>No coração da cidade, a BG Farol é ideal para você
         que quer aproveitar o que tem de melhor na região. Além do padrão já conhecido
         de maquinários e suporte profissional, temos estacionamento coberto e seguro.</p>
     </header>
@@ -79,51 +230,51 @@ permalink: /institucional/
               <td>Cross Funcional</td>
               <td>BG Spinning</td>
               <td>Cross Funcional</td>
-              <td> - </td>
+              <td>BG Spinning</td>
             </tr>
             <tr>
-              <td>6:30</td>
-              <td>BG Abdominal</td>
+              <td>6:40</td>
               <td>BG Along. e Mobil.</td>
-              <td>BG GAP</td>
-              <td>BG Along. e Mobil.</td>
-              <td>BG Abdominal</td>
+              <td> - </td>
+              <td> - </td>
+              <td> - </td>
+              <td>BG Step/jump</td>
             </tr>
             <tr>
               <td>7:00</td>
               <td>FitDance</td>
               <td>Muay Thai</td>
-              <td>BG Ritmos</td>
+              <td>Cross Funcional</td>
               <td>Muay Thai</td>
               <td>FitDance</td>
+            </tr>
+             <tr>
+              <td>7:00</td>
+              <td> - </td>
+              <td>BG Abdominal</td>
+              <td>BG Ritmos</td>
+              <td>BG Abdominal</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>8:00</td>
               <td>BG Step/Jump</td>
               <td>Strong By Zumba</td>
-              <td>BG Funcional</td>
+              <td>Zumba</td>
               <td>Strong By Zumba</td>
               <td>BG Gap</td>
             </tr>
             <tr>
-              <td>12:30</td>
+              <td>12:20</td>
               <td>BG Insanity</td>
               <td>BG Spinning</td>
               <td>BG Abdominal</td>
               <td>BG Spinning</td>
               <td>BG Funcional</td>
             </tr>
-            <tr>
-              <td>17:00</td>
-              <td>BG Step/Jump</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
              <tr>
               <td>17:30</td>
-              <td>-</td>
+              <td>BG Step/jump</td>
               <td>BG Funcional</td>
               <td>BG Insanity</td>
               <td>Bg Funcional</td>
@@ -141,7 +292,7 @@ permalink: /institucional/
               <td>18:30</td>
               <td>BG Along. e Mobil.</td>
               <td>-</td>
-              <td>BG Spinning</td>
+              <td>BG Bike indoor</td>
               <td>-</td>
               <td>-</td>
             </tr>
@@ -249,9 +400,9 @@ permalink: /institucional/
             </tr>
             <tr>
               <td>9:00</td>
-              <td>BG Abdominal</td>
+              <td> - </td>
               <td>BG Alongamento e Mobil.</td>
-              <td>Abdominal Stronger</td>
+              <td> - </td>
               <td>BG Alongamento e Mobil.</td>
               <td>-</td>
             </tr>
@@ -268,8 +419,8 @@ permalink: /institucional/
               <td>Muay Thai</td>
               <td>FitDance</td>
               <td>Muay Thai</td>
+              <td>BG Funcional</td>
               <td>Muay Thai</td>
-              <td>-</td>
             </tr>
             <tr>
               <td>18:00</td>
@@ -278,14 +429,6 @@ permalink: /institucional/
               <td>BG Spinning</td>
               <td>BG Spinning</td>
               <td>BG Spinning</td>
-            </tr>
-            <tr>
-              <td>19:00</td>
-              <td>BG Running</td>
-              <td>BG Running</td>
-              <td>BG Running</td>
-              <td>-</td>
-              <td>-</td>
             </tr>
             <tr>
               <td>19:00</td>
@@ -318,14 +461,29 @@ permalink: /institucional/
 
 <script>
   function myMap() {
+
+    var mapCanvasBiu = document.getElementById("mapa-biu");
     var mapCanvasFarol = document.getElementById("mapa-farol");
     var mapCanvasPraia = document.getElementById("mapa-praia");
 
     var myCenter = new google.maps.LatLng(-9.621318, -35.738650);
 
+
     var posicaoBgFarol = new google.maps.LatLng(-9.621318, -35.738650);
     var posicaoBgPraia = new google.maps.LatLng(-9.6481603,-35.7028945);
+    var posicaoBgBiu = new google.maps.LatLng(-9.557777, -35.741560);
 
+
+    var mapOptionsBiu = {
+      center: posicaoBgBiu,
+      zoom: 16,
+      disableDefaultUI: false,
+      scrollwheel: false,
+      styles: [{"stylers":[{"hue":"#0357ab"},{"saturation":250}]},
+      {"featureType":"road","elementType":"geometry","stylers":[{"lightness":50},
+      {"visibility":"simplified"}]},{"featureType":"road","elementType":"labels",
+      "stylers":[{"visibility":"off"}]}]
+    };
 
     var mapOptionsFarol = {
       center: myCenter,
@@ -349,9 +507,16 @@ permalink: /institucional/
       "stylers":[{"visibility":"off"}]}]
     };
 
+    var mapBiu = new google.maps.Map(mapCanvasBiu,mapOptionsBiu);
     var mapFarol = new google.maps.Map(mapCanvasFarol,mapOptionsFarol);
     var mapPraia = new google.maps.Map(mapCanvasPraia,mapOptionsPraia);
 
+    var markerBiu = new google.maps.Marker({
+    position: posicaoBgBiu,
+    icon: "/assets/img/pointer.png"
+    });
+    markerBiu.setMap(mapBiu);
+    
     var markerFarol = new google.maps.Marker({
     position: posicaoBgFarol,
     icon: "/assets/img/pointer.png"

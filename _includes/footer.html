@@ -5,9 +5,12 @@
       <img class="img-responsive" src="{{ "assets/img/logo.png" | relative_url }}" alt="logo">
     </div>
     <div id="enderecos" class="col-md-12">
+      <h3>Unidade Benedito Bentes</h2>
+      <p>Avenida Cachoeira do Meirim, 33, Benedito Bentes, Maceió - AL, 57084-040</p>
+      <!-- <p>Informações: (82) 99127-0519</p> -->
       <h3>Unidade Farol</h2>
-      <p>Av.Fernandes Lima , 3204 - Gruta de Lourdes, Maceió - AL, CEP: 57055-000</p>
-      <p>Informações: (82) 99127-0519</p>
+        <p>Av.Fernandes Lima , 3204 - Gruta de Lourdes, Maceió - AL, CEP: 57055-000</p>
+        <p>Informações: (82) 99127-0519</p>
       <h3>Unidade Jatiúca</h2>
       <p>R. Mal. Antônio Guedes Muniz, 112 - Jatiúca, Maceió - AL, CEP: 57036-670</p>
       <p>Informações: (82) 99106-3360</p>
@@ -17,7 +20,7 @@
       <li><a href="{{site.facebook}}" target="_blank" rel="noopener"><img src="/assets/img/icon-social-fb.png" alt="facebook"></a></li>
     </ul>
     <div id="copyright" class="col-md-12">
-      <p>BG Fitness <span>© 2018 - Todos os direitos reservados.</span></p>
+      <p>BG Fitness <span>© 2019 - Todos os direitos reservados.</span></p>
     </div>
 
 
@@ -113,3 +116,29 @@
   sr.reveal('#banner-bgbiu',{ duration: 3000 });
 
 </script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v4.0'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1656471081256196"
+  logged_in_greeting="Oi! Posso ajudá-lo?"
+  logged_out_greeting="Oi! Posso ajudá-lo?">
+</div>

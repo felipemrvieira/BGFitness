@@ -5,9 +5,9 @@ permalink: /
 ---
 <section id="sec1" class="principal" data-type="background" data-speed="5">
   <div id="chamada">
-    <h1>Dê o primeiro passo e venha fazer a diferença</h1>
-    <p>Comece a treinar hoje mesmo!</p>
-    <a id="btn-principal" class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a>
+    <h1>Benedito Bentes, estamos chegando!</h1>
+    <p>Inauguração dia 15 de agosto</p>
+    <!-- <a id="btn-principal" class="btn" href="{{ site.matricula-url }}" target="_blank">Matricule-se agora</a> -->
   </div>
 
 </section>
@@ -19,7 +19,7 @@ permalink: /
     <div id="elementos-explicacao">
       <h2 id="titulo-explicacao">Academia para todos</h2>
       <p id="explicacao">
-        Academia com diversas modalidades de atividades físicas para quem gosta de ficar parado, além de maquinário exclusivo.</p>
+        Academia com diversas modalidades de atividades físicas para quem não gosta de ficar parado, além de maquinário exclusivo.</p>
       <a class="btn" href="{{ site.matricula-url }}" target="_blank" rel="noopener">Matricule-se agora</a>
     </div>
 
@@ -31,7 +31,7 @@ permalink: /
       <p class="como-funciona-titulo">Saiba como funciona</p>
       <p class="como-funciona-descricao">Aqui você pode desfrutar de equipamentos de ultima geração e exclusivos no estado.
          Tudo isso em um ambiente sofisticado, com vestiários equipados e ambiente climatizado.
-         Você merece tudo isso por um preço justo, com planos a partir de R$ 89,90 mensais*.</p>
+         Você merece tudo isso por um preço justo, com planos a partir de R$ 79,90 mensais*.</p>
     </header>
     <div class="col-md-6">
       <div class="icon">
@@ -55,39 +55,91 @@ permalink: /
       <p id="planos-titulo">Seu plano BG Fitness</p>
       <p id="planos-subtitulo">Escolha um plano e venha fazer parte da familia</p>
     </header>
-    <div class="planos">
-      <div id="gold" class="col-md-5 plano">
-        <p>Plano <strong>BG Gold</strong></p>
-        <p class="sub-plano">Musculação e Aeróbicos em horário delimitado:</p>
-        <div id="detalhe">
-          <p>Horário do plano durante a semana:</p>
-          <p>Segunda à quarta das 09:00 às 15:00</p>
-          <p>Quinta à Domingo horário livre</p>
+    <div class="planos col-md-12">
+      <div class="cartao-plano-container">
+        <!-- Cartão plano -->
+        <div class="cartao-plano">
+          <div id="bg-biu" class="cartao-plano-header">
+            <!-- <p class="titulo-unidade">BG Farol</p> -->
+            <div class="info-unidade">
+              <p class="nome-unidade">BG Biu</p>
+              <p class="endereco-unidade">Av. Cachoeira do Meirim, 33, Benedito Bentes, Maceió - AL</p>
+            </div>
+          </div>
+          <div class="plano-info">
+          <div class="planos-container">
+              <div class="bg-plano">
+                <p class="nome-plano">BG Gold</p>
+                <p class="preco-plano">R$ 79,90</p>
+              </div>
+              <hr>
+              <div class="bg-plano">
+                <p class="nome-plano">BG Platinum</p>
+                <p class="preco-plano">R$ 99,90</p>
+              </div>
+            </div>
+            <a class="btn" href="/BG_MATRICULA" target="_blank" rel="noopener">Matricule-se agora</a>
+          </div>
         </div>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow" rel="noopener">
-          <strong class="preco">R$ 89,90</strong>
-        </a>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="noopener"><p class="contrate">Contrate Agora</p></a>
+        <!-- Cartão plano -->
+        <!-- Cartão plano -->
+        <div class="cartao-plano">
+          <div id="bg-farol" class="cartao-plano-header">
+            <!-- <p class="titulo-unidade">BG Farol</p> -->
+            <div class="info-unidade">
+              <p class="nome-unidade">BG Farol</p>
+              <p class="endereco-unidade">Av.Fernandes Lima, 3204 - Gruta de Lourdes, Maceió - AL</p>
+            </div>
+          </div>
+          <div class="plano-info">
+          <div class="planos-container">
+              <div class="bg-plano">
+                <p class="nome-plano">BG Gold</p>
+                <p class="preco-plano">R$ 99,90</p>
+              </div>
+              <hr>
+              <div class="bg-plano">
+                <p class="nome-plano">BG Platinum</p>
+                <p class="preco-plano">R$ 109,90</p>
+              </div>
+            </div>
+            <a class="btn" href="/BG_MATRICULA" target="_blank" rel="noopener">Matricule-se agora</a>
+          </div>
+        </div>
+        <!-- Cartão plano -->
+        <!-- Cartão plano -->
+        <div class="cartao-plano">
+          <div id="bg-praia" class="cartao-plano-header">
+            <!-- <p class="titulo-unidade">BG Farol</p> -->
+            <div class="info-unidade">
+              <p class="nome-unidade">BG Praia</p>
+              <p class="endereco-unidade">R. Mal. Antônio Guedes Muniz, 112 - Jatiúca, Maceió - AL</p>
+            </div>
+          </div>
+          <div class="plano-info">
+          <div class="planos-container">
+              <div class="bg-plano">
+                <p class="nome-plano">BG Gold</p>
+                <p class="preco-plano">R$ 99,90</p>
+              </div>
+              <hr>
+              <div class="bg-plano">
+                <p class="nome-plano">BG Platinum</p>
+                <p class="preco-plano">R$ 109,90</p>
+              </div>
+            </div>
+            <!-- <div class="info-unidade">
+              <p class="nome-unidade">BG Praia</p>
+              <p class="endereco-unidade">R. Mal. Antônio Guedes Muniz, 112 - Jatiúca, Maceió - AL</p>
+            </div> -->
+            <a class="btn" href="/BG_MATRICULA" target="_blank" rel="noopener">Matricule-se agora</a>
+          </div>
+        </div>
+        <!-- Cartão plano -->
+          
       </div>
-      <div class="col-md-2">
-      </div>
-      <div id="platinum" class="col-md-5 plano">
-        <p>Plano <strong>BG Platinum</strong></p>
-        <p class="sub-plano">Musculação, Acesso às duas unidades, Acesso à todas as modalidades:</p>
-        <ul>
-          <li>Corrida indoor</li>
-          <li>Funcional</li>
-          <li>Danças</li>
-          <li>Muay Thai</li>
-          <li>e mais!</li>
-          <li><a href="/institucional">Confira todas as modalidades aqui!</a></li>
-        </ul>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="nofollow" rel="noopener">
-          <strong class="preco">R$ 109,90</strong>
-        </a>
-        <a href="{{ site.matricula-url }}" target="_blank" rel="noopener"><p class="contrate">Contrate Agora</p></a>
 
-      </div>
+
     </div>
   </div>
 </section>
@@ -100,27 +152,30 @@ permalink: /
   </div>
 </section>
 
-<section id="banner-bgbiu">
+<!-- <section id="banner-bgbiu">
   <header class="col-md-12">
     <div>
       <p>Benedito Bentes</p>
       <p>Estamos chegando!</p>
     </div>
   </header>
-</section>
+</section> -->
+
 
 
 <script>
   function myMap() {
     var mapCanvas = document.getElementById("mapa");
-    var myCenter = new google.maps.LatLng(-9.635062, -35.720698);
+    var myCenter = new google.maps.LatLng(-9.6008353,-35.7484346);
 
     var posicaoBgPraia = new google.maps.LatLng(-9.6482231,-35.7050996);
     var posicaoBgFarol = new google.maps.LatLng(-9.621318, -35.738650);
+    var posicaoBgBiu = new google.maps.LatLng(-9.557777, -35.741560);
+
 
     var mapOptions = {
       center: myCenter,
-      zoom: 14,
+      zoom: 13,
       disableDefaultUI: false,
       scrollwheel: false
     };
@@ -139,6 +194,13 @@ permalink: /
       animation: google.maps.Animation.BOUNCE
     });
     markerFarol.setMap(map);
+
+    var markerBiu = new google.maps.Marker({
+      position: posicaoBgBiu,
+      icon: "assets/img/pointer.png",
+      animation: google.maps.Animation.BOUNCE
+    });
+    markerBiu.setMap(map);
   }
 </script>
 
