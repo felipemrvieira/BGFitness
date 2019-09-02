@@ -34,34 +34,17 @@ permalink: /institucional/
   <div id="descricao-unidade" class="col-md-12">
     <header>
       <h2>Unidade BG Biu</h2>
-      <p>A mais nova unidade da BG Fitness conta com a qualidade de maquinário e profissionais que você ja conhece a um custo acessível para você que sabe que não precisa pagar caro para ter acesso a uma academia de qualidade. </p><p>Faça seu pré cadastro gratuitamente e garanta <u> TAXA ZERO</u> de matrícula!</p>
+      <p>A mais nova unidade da BG Fitness conta com a qualidade de maquinário e profissionais que você ja conhece a um custo acessível para você que sabe que não precisa pagar caro para ter acesso a uma academia de qualidade.</p>
     </header>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTGxHMqr7hyQh2_AzAivpPwDrBkeSP06fylAD_VoXdYHliZw/viewform?embedded=true" width="100%" height="806" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-    <!-- <div id="galeria" class="col-md-12">
-      <a href="/assets/img/Farol/bg1.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg1.jpeg" alt="">
+    <div id="galeria" class="col-md-12">
+      <a href="/assets/img/Biu/biu.png" data-lightbox="bgbiu">
+        <img class="img-thumbnail" src="/assets/img/Biu/biu.png" alt="">
       </a>
-      <a href="/assets/img/Farol/bg2.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg2.jpeg" alt="">
-      </a>
-      <a href="/assets/img/Farol/bg3.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg3.jpeg" alt="">
-      </a>
-      <a href="/assets/img/Farol/bg4.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg4.jpeg" alt="">
-      </a>
-      <a href="/assets/img/Farol/bg5.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg5.jpeg" alt="">
-      </a>
-      <a href="/assets/img/Farol/bg6.jpeg" data-lightbox="bgfarol">
-        <img class="img-thumbnail" src="/assets/img/Farol/bg6.jpeg" alt="">
-      </a>
-    </div> -->
+    </div>
     <div id="cronograma" class="col-md-12">
        <h3 class="center">Cronograma de aulas - Unidade BG Biu</h3>
       <div class="container">
-        <h3>Em breve!</h3>
-        <!-- <table class="table table-striped table-hover">
+        <table class="table table-striped table-hover">
           <thead>
             <tr>
               <th></th>
@@ -75,43 +58,27 @@ permalink: /institucional/
           <tbody>
             <tr>
               <td>6:00</td>
-              <td>BG Spinning</td>
-              <td>Cross Funcional</td>
-              <td>BG Spinning</td>
-              <td>Cross Funcional</td>
-              <td>BG Spinning</td>
-            </tr>
-            <tr>
-              <td>6:40</td>
               <td>BG Along. e Mobil.</td>
-              <td> - </td>
-              <td> - </td>
-              <td> - </td>
-              <td>BG Step/jump</td>
+              <td>BG Cross Funcional</td>
+              <td>BG Spinning</td>
+              <td>Cross Funcional</td>
+              <td>BG Spinning</td>
             </tr>
             <tr>
               <td>7:00</td>
-              <td>FitDance</td>
-              <td>Muay Thai</td>
-              <td>Cross Funcional</td>
               <td>Muay Thai</td>
               <td>FitDance</td>
-            </tr>
-             <tr>
-              <td>7:00</td>
-              <td> - </td>
-              <td>BG Abdominal</td>
-              <td>BG Ritmos</td>
-              <td>BG Abdominal</td>
-              <td> - </td>
+              <td>Muay Thai</td>
+              <td>FitDance</td>
+              <td>BG GAP</td>
             </tr>
             <tr>
               <td>8:00</td>
+              <td>BG Abdominal</td>
               <td>BG Step/Jump</td>
-              <td>Strong By Zumba</td>
               <td>Zumba</td>
-              <td>Strong By Zumba</td>
-              <td>BG Gap</td>
+              <td>BG Step/Jump</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>12:20</td>
@@ -123,57 +90,65 @@ permalink: /institucional/
             </tr>
              <tr>
               <td>17:30</td>
-              <td>BG Step/jump</td>
+              <td>BG Abdominal</td>
               <td>BG Funcional</td>
-              <td>BG Insanity</td>
+              <td>BG Step/jump</td>
               <td>Bg Funcional</td>
-              <td>BG Gap</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>18:00</td>
-              <td>Muay Thai</td>
-              <td>BG Ritmos</td>
-              <td>Muay Thai</td>
-              <td>BG Ritmos</td>
-              <td>Muay Thai</td>
+              <td>BG Strong</td>
+              <td>-</td>
+              <td>BG Zumba</td>
+              <td>-</td>
+              <td>BG Gap</td>
             </tr>
              <tr>
               <td>18:30</td>
-              <td>BG Along. e Mobil.</td>
               <td>-</td>
-              <td>BG Bike indoor</td>
+              <td>Muay Thai</td>
               <td>-</td>
+              <td>Muay Thai</td>
               <td>-</td>
             </tr>
             <tr>
               <td>19:00</td>
               <td>FitDance</td>
-              <td>Strong By Zumba</td>
+              <td>-</td>
               <td>FitDance</td>
-              <td>BG Zumba</td>
+              <td>-</td>
               <td>FitDance</td>
+            </tr>
+              <tr>
+              <td>19:30</td>
+              <td>-</td>
+              <td>BG Spinning</td>
+              <td>-</td>
+              <td>BG Spinning</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>20:00</td>
+              <td>BG Step/Jump</td>
+              <td>-</td>
+              <td>BG Insanity</td>
               <td>-</td>
               <td>BG Abdominal</td>
-              <td>-</td>
-              <td>BG Abdominal</td>
-              <td>BG Gap</td>
             </tr>
             <tr>
               <td>20:30</td>
+              <td>-</td>
               <td>BG Cross Funcional</td>
-              <td>BG Step/Jump</td>
+              <td>-</td>
               <td>BG Cross Funcional</td>
-              <td>BG Step/Jump</td>
-              <td>BG Cross Funcional</td>
+              <td>-</td>
             </tr>
           </tbody> 
-        </table> -->
-        <!-- <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
+        </table>
+        <p>Obs.: Todas as nossas modalidades são ofertadas como bônus para nossos alunos.
           Não existe custo adicional para participar de nenhuma modalidade.
-          Nosso cronograma de aulas pode ser atualizado adicionando ou removendo modalidades visando atender as maiores demandas.</p> -->
+          Nosso cronograma de aulas pode ser atualizado adicionando ou removendo modalidades visando atender as maiores demandas.</p>
       </div>
     </div>
   </div> 
@@ -243,7 +218,7 @@ permalink: /institucional/
             <tr>
               <td>7:00</td>
               <td>FitDance</td>
-              <td>Muay Thai</td>
+              <td>BG Abdominal</td>
               <td>Cross Funcional</td>
               <td>Muay Thai</td>
               <td>FitDance</td>
@@ -251,7 +226,7 @@ permalink: /institucional/
              <tr>
               <td>7:00</td>
               <td> - </td>
-              <td>BG Abdominal</td>
+              <td> - </td>
               <td>BG Ritmos</td>
               <td>BG Abdominal</td>
               <td> - </td>
@@ -299,7 +274,7 @@ permalink: /institucional/
             <tr>
               <td>19:00</td>
               <td>FitDance</td>
-              <td>Strong By Zumba</td>
+              <td>BG Zumba</td>
               <td>FitDance</td>
               <td>BG Zumba</td>
               <td>FitDance</td>
@@ -310,7 +285,7 @@ permalink: /institucional/
               <td>BG Abdominal</td>
               <td>-</td>
               <td>BG Abdominal</td>
-              <td>BG Gap</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>20:30</td>
@@ -385,9 +360,9 @@ permalink: /institucional/
             <tr>
               <td>7:00</td>
               <td>BG Alongamento e Mobil.</td>
-              <td>BG GAP</td>
+              <td>BG GAP e Abdominal</td>
               <td>BG Alongamento e Mobil.</td>
-              <td>BG GAP</td>
+              <td>BG GAP e Abdominal</td>
               <td>BG Alongamento e Mobil.</td>
             </tr>
             <tr>
@@ -425,7 +400,7 @@ permalink: /institucional/
             <tr>
               <td>18:00</td>
               <td>BG Spinning</td>
-              <td>BG Funcional</td>
+              <td>BG Insanity</td>
               <td>BG Spinning</td>
               <td>BG Spinning</td>
               <td>BG Spinning</td>
@@ -435,16 +410,16 @@ permalink: /institucional/
               <td>FitDance</td>
               <td>BG Spinning</td>
               <td>FitDance</td>
-              <td>BG Funcional</td>
+              <td>FitDance</td>
               <td>FitDance</td>
             </tr>
             <tr>
               <td>20:00</td>
               <td>Zumba</td>
-              <td>Strong By Zumba</td>
+              <td>BG Jump</td>
               <td>Zumba</td>
-              <td>Strong By Zumba</td>
-              <td>-</td>
+              <td>BG Jump</td>
+              <td>Zumba</td>
             </tr>
           </tbody>
         </table>
