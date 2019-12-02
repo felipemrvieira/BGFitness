@@ -58,7 +58,7 @@ permalink: /institucional/
           <tbody>
             <tr>
               <td>6:00</td>
-              <td>BG Along. e Mobil.</td>
+              <td>BG Abdominal</td>
               <td>BG Cross Funcional</td>
               <td>BG Spinning</td>
               <td>Cross Funcional</td>
@@ -66,83 +66,67 @@ permalink: /institucional/
             </tr>
             <tr>
               <td>7:00</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
-              <td>BG GAP</td>
+              <td>BG Muay Thai</td>
+              <td>BG FitDance</td>
+              <td>BG Muay Thai</td>
+              <td>BG FitDance</td>
+              <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>8:00</td>
-              <td>BG Abdominal</td>
               <td>BG Step/Jump</td>
-              <td>Zumba</td>
-              <td>BG Step/Jump</td>
-              <td>BG Abdominal</td>
+              <td>BG Along. e Mobil.</td>
+              <td>BG Ritmos</td>
+              <td>BG Gap</td>
+              <td>-</td>
             </tr>
             <tr>
-              <td>12:20</td>
-              <td>BG Insanity</td>
-              <td>BG Spinning</td>
-              <td>BG Abdominal</td>
-              <td>BG Spinning</td>
+              <td>17:00</td>
+              <td> - </td>
               <td>BG Funcional</td>
+              <td>BG Step/Jump</td>
+              <td>BG Funcional</td>
+              <td> - </td>
             </tr>
              <tr>
               <td>17:30</td>
               <td>BG Abdominal</td>
-              <td>BG Funcional</td>
-              <td>BG Step/jump</td>
-              <td>Bg Funcional</td>
+              <td> - </td>
+              <td> - </td>
+              <td> - </td>
               <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>18:00</td>
               <td>BG Strong</td>
-              <td>-</td>
+              <td>BG Muay Thai</td>
               <td>BG Zumba</td>
-              <td>-</td>
+              <td>BG Muay Thai</td>
               <td>BG Gap</td>
-            </tr>
-             <tr>
-              <td>18:30</td>
-              <td>-</td>
-              <td>Muay Thai</td>
-              <td>-</td>
-              <td>Muay Thai</td>
-              <td>-</td>
             </tr>
             <tr>
               <td>19:00</td>
-              <td>FitDance</td>
-              <td>-</td>
-              <td>FitDance</td>
-              <td>-</td>
-              <td>FitDance</td>
-            </tr>
-              <tr>
-              <td>19:30</td>
-              <td>-</td>
+              <td>BG FitDance</td>
               <td>BG Spinning</td>
-              <td>-</td>
+              <td>BG FitDance</td>
               <td>BG Spinning</td>
-              <td>-</td>
+              <td>BG FitDance</td>
             </tr>
             <tr>
               <td>20:00</td>
-              <td>BG Step/Jump</td>
-              <td>-</td>
+              <td>BG Abdominal</td>
+              <td>BG Step</td>
               <td>BG Insanity</td>
-              <td>-</td>
+              <td>BG Step</td>
               <td>BG Abdominal</td>
             </tr>
             <tr>
               <td>20:30</td>
-              <td>-</td>
               <td>BG Cross Funcional</td>
-              <td>-</td>
+              <td>BG Jump</td>
               <td>BG Cross Funcional</td>
-              <td>-</td>
+              <td>BG Jump</td>
+              <td>BG Cross Funcional</td>
             </tr>
           </tbody> 
         </table>
@@ -202,9 +186,9 @@ permalink: /institucional/
             <tr>
               <td>6:00</td>
               <td>BG Spinning</td>
-              <td>Cross Funcional</td>
+              <td>BG Cross Funcional</td>
               <td>BG Spinning</td>
-              <td>Cross Funcional</td>
+              <td>BG Cross Funcional</td>
               <td>BG Spinning</td>
             </tr>
             <tr>
@@ -213,71 +197,71 @@ permalink: /institucional/
               <td> - </td>
               <td> - </td>
               <td> - </td>
-              <td>BG Step/jump</td>
+              <td>BG Along. e Mobil.</td>
             </tr>
             <tr>
               <td>7:00</td>
-              <td>FitDance</td>
-              <td>BG Abdominal</td>
-              <td>Cross Funcional</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
+              <td>BG FitDance</td>
+              <td>BG Muay Thai</td>
+              <td>BG Cross Funcional</td>
+              <td>BG Muay Thai</td>
+              <td>BG FitDance</td>
             </tr>
              <tr>
               <td>7:00</td>
               <td> - </td>
               <td> - </td>
-              <td>BG Ritmos</td>
-              <td>BG Abdominal</td>
+              <td> BG Ritmos </td>
+              <td> - </td>
+              <td> - </td>
+            </tr>
+            <tr>
+              <td>7:30</td>
+              <td> - </td>
+              <td> BG Abdominal </td>
+              <td> - </td>
+              <td> BG Abdominal </td>
               <td> - </td>
             </tr>
             <tr>
               <td>8:00</td>
-              <td>BG Step/Jump</td>
-              <td>Strong By Zumba</td>
-              <td>Zumba</td>
-              <td>Strong By Zumba</td>
               <td>BG Gap</td>
+              <td>BG Zumba</td>
+              <td>BG Step/Jump</td>
+              <td>BG Strong </td>
+              <td> - </td>
             </tr>
             <tr>
-              <td>12:20</td>
-              <td>BG Insanity</td>
-              <td>BG Spinning</td>
-              <td>BG Abdominal</td>
-              <td>BG Spinning</td>
-              <td>BG Funcional</td>
-            </tr>
-             <tr>
               <td>17:30</td>
-              <td>BG Step/jump</td>
+              <td> - </td>
+              <td> BG Funcional </td>
+              <td> - </td>
               <td>BG Funcional</td>
-              <td>BG Insanity</td>
-              <td>Bg Funcional</td>
-              <td>BG Gap</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>18:00</td>
-              <td>Muay Thai</td>
+              <td>BG Muay Thai</td>
               <td>BG Ritmos</td>
-              <td>Muay Thai</td>
-              <td>BG Ritmos</td>
-              <td>Muay Thai</td>
+              <td>BG Muay Thai</td>
+              <td>BG FitDance</td>
+              <td>BG Muay Thai</td>
             </tr>
              <tr>
               <td>18:30</td>
               <td>BG Along. e Mobil.</td>
               <td>-</td>
-              <td>BG Bike indoor</td>
+              <td>BG Along. e Mobil.</td>
               <td>-</td>
               <td>-</td>
             </tr>
             <tr>
               <td>19:00</td>
-              <td>FitDance</td>
+              <td>BG FitDance</td>
               <td>BG Zumba</td>
-              <td>FitDance</td>
+              <td>BG FitDance</td>
               <td>BG Zumba</td>
-              <td>FitDance</td>
+              <td>BG FitDance</td>
             </tr>
             <tr>
               <td>20:00</td>
@@ -290,9 +274,9 @@ permalink: /institucional/
             <tr>
               <td>20:30</td>
               <td>BG Cross Funcional</td>
-              <td>BG Step/Jump</td>
+              <td> - </td>
               <td>BG Cross Funcional</td>
-              <td>BG Step/Jump</td>
+              <td> -</td>
               <td>BG Cross Funcional</td>
             </tr>
           </tbody> 
@@ -351,75 +335,107 @@ permalink: /institucional/
           <tbody>
             <tr>
               <td>6:00</td>
-              <td>BG Funcional</td>
-              <td>BG Spinning</td>
-              <td>BG Funcional</td>
-              <td>BG Spinning</td>
-              <td>BG Funcional</td>
+              <td>-</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>Bike</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>7:00</td>
-              <td>BG Alongamento e Mobil.</td>
-              <td>BG GAP e Abdominal</td>
-              <td>BG Alongamento e Mobil.</td>
-              <td>BG GAP e Abdominal</td>
-              <td>BG Alongamento e Mobil.</td>
+              <td>Abdômen/Alongamento</td>
+              <td>Funcional</td>
+              <td>Abdômen/Alongamento</td>
+              <td>Funcional</td>
+              <td>-</td>
             </tr>
             <tr>
-              <td>8:00</td>
-              <td>BG Resistência</td>
-              <td>FitDance</td>
-              <td>BG Resistência</td>
-              <td>FitDance</td>
-              <td>Fitdance</td>
+              <td>7:00</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <td>9:00</td>
-              <td> - </td>
-              <td>BG Alongamento e Mobil.</td>
-              <td> - </td>
-              <td>BG Alongamento e Mobil.</td>
+              <td>7:30</td>
+              <td>Alonga.</td>
+              <td>-</td>
+              <td>Alonga.</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>08:00</td>
+              <td>Zumba</td>
+              <td>Fit Dance</td>
+              <td>Zumba</td>
+              <td>Fit Dance</td>
+              <td>Fit Dance</td>
+            </tr>
+            <tr>
+              <td>09:00</td>
+              <td>-</td>
+              <td>-</td>
+              <td>Alonga.</td>
+              <td>-</td>
               <td>-</td>
             </tr>
             <tr>
               <td>16:00</td>
-              <td>BG GAP</td>
-              <td>Extreme Mix</td>
-              <td>BG GAP</td>
-              <td>Extreme Mix</td>
-              <td>Zumba</td>
+              <td>-</td>
+              <td>Abdomên</td>
+              <td>-</td>
+              <td>Abdomên</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>17:00</td>
-              <td>Muay Thai</td>
-              <td>FitDance</td>
-              <td>Muay Thai</td>
-              <td>BG Funcional</td>
-              <td>Muay Thai</td>
+              <td>Insanity</td>
+              <td>Zumba NEWS</td>
+              <td>Insanity</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>18:00</td>
-              <td>BG Spinning</td>
-              <td>BG Insanity</td>
-              <td>BG Spinning</td>
-              <td>BG Spinning</td>
-              <td>BG Spinning</td>
+              <td>Muay Thay</td>
+              <td>Insanity</td>
+              <td>Muay Thay</td>
+              <td>Insanity</td>
+              <td>Muay Thay</td>
+            </tr>
+            <tr>
+              <td>18:00</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>19:00</td>
-              <td>FitDance</td>
-              <td>BG Spinning</td>
-              <td>FitDance</td>
-              <td>FitDance</td>
-              <td>FitDance</td>
+              <td>Fit Dance</td>
+              <td>Fit Dance</td>
+              <td>Fit Dance</td>
+              <td>Fit Dance</td>
+              <td>Fit Dance</td>
+            </tr>
+            <tr>
+              <td>19:00</td>
+              <td>-</td>
+              <td>Bike</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>20:00</td>
               <td>Zumba</td>
-              <td>BG Jump</td>
+              <td>Jump</td>
               <td>Zumba</td>
-              <td>BG Jump</td>
-              <td>Zumba</td>
+              <td>Jump</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
